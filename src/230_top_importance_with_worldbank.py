@@ -17,7 +17,7 @@ input_file = "./output/_importances.json"
 output_dir = "./output"
 
 top = 20
-target_country_codes = ["USA", "JPN", "DEU", "IND", "SAU", "THA", "PRY", "HUN", "NZL", "SGP", "GUY"]
+target_country_codes = ["USA", "JPN", "DEU", "IND", "SAU", "THA", "PRY", "HUN", "NZL", "SGP", "GUY", "EST"]
 
 
 
