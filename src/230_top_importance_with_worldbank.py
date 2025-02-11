@@ -18,7 +18,7 @@ input_file = "./output/_importances.json.NY.GDP.MKTP.CD"
 output_dir = "./output"
 
 top = 20
-target_country_codes = ["USA", "JPN", "DEU", "SAU", "GUY", "EST"]
+target_country_codes = ["USA", "JPN", "CHE", "AUT", "FIN", "SWE", "NOR", "ICE", "DNK", "EST", "LVA", "LTU", "POL", "DEU", "NLD", "BEL", "LUX", "CZE", "SVK", "HUN", "SVN", "SRB", "HRV", "BIH", "MNE", "ALB", "MKD", "ROU", "BGR", "MDA", "TUR", "CYP", "GRC", "ITA", "ESP", "PRT", "FRA", "MLT", "GBR", "IRL"]
 
 
 

@@ -27,9 +27,9 @@ output_file = output_dir+"/_importances.json"
 
 tmp_dir = "./tmp"
 
-#gdp_index = ["NY.GDP.MKTP.CD", "NY.GDP.MKTP.KD.ZG", "NY.GDP.PCAP.CD"]
-gdp_index = ["NY.GDP.MKTP.KD.ZG", "NY.GDP.PCAP.CD"]
-#gdp_index = ["NY.GDP.PCAP.CD"]
+gdp_index = ["NY.GDP.MKTP.CD"]	# GDP
+#gdp_index = ["NY.GDP.MKTP.CD", "NY.GDP.PCAP.CD"]	# GDP, GDP per capita
+#gdp_index = ["NY.GDP.MKTP.KD.ZG"]	# GDP growth
 
 removed_factor_index = ["NY.GDP.MKTP.KD", "NY.GDP.MKTP.KN", "NY.GDP.MKTP.CN", "NY.GDP.MKTP.CD", "NY.GDP.DEFL.ZS", "NY.GDP.MKTP.KD.ZG", "NY.GDP.PCAP.KD", "NY.GDP.PCAP.KN", "NY.GDP.PCAP.CN", "NY.GDP.PCAP.CD", "NY.GDP.PCAP.KD.ZG", "NY.GDP.PCAP.PP.KD", "NY.GDP.PCAP.PP.CD", "NY.GDP.MKTP.PP.KD", "NY.GDP.MKTP.PP.CD", "NY.GNP.MKTP.CN.AD"]	# GDP-related
 
@@ -39,9 +39,9 @@ test_index = []		# DEFAULT
 #test_index = ["SL.TLF.TOTL.FE.ZS", "SL.TLF.TOTL.IN", "SL.TLF.ADVN.ZS"]	# Labor force, female (% of total labor force); Labor force, total; Labor force with advanced education (% of total working-age population with advanced education)
 
 year_min = 1960
-year_max = 2022
+year_max = 2023
 
-gap_period = 10
+gap_period = 20
 
 
 ############################################################
@@ -99,17 +99,17 @@ for dst in gdp_index:
 				flag = 1
 				if not os.path.exists(tmp_dir+"/"+zipname):
 					zf.extract(zipname, tmp_dir+"/")
-				data1 = pd.read_csv(tmp_dir+"/"+zipname, skiprows=3)
-#				print(data1)
-#				print(zipname, data1.shape)
+				data_dst = pd.read_csv(tmp_dir+"/"+zipname, skiprows=3)
+#				print(data_dst)
+#				print(zipname, data_dst.shape)
 
 				#####
 				# To Collect Country Info. (It works once) 
 				if country_index == []:
-					for i in range(data1.shape[0]):
-						cc = data1["Country Code"][i]
+					for i in range(data_dst.shape[0]):
+						cc = data_dst["Country Code"][i]
 						country_index.append(cc)
-						country_name[cc] = data1["Country Name"][i]
+						country_name[cc] = data_dst["Country Name"][i]
 						country_num[cc] = i
 
 					# output
@@ -135,49 +135,65 @@ for dst in gdp_index:
 					if re.match(pattern, zipname):
 						if not os.path.exists(tmp_dir+"/"+zipname):
 							zf.extract(zipname, tmp_dir+"/")
-						data0 = pd.read_csv(tmp_dir+"/"+zipname, skiprows=3)
-#						print(data0)
-#						print(zipname, data0.shape)
+						data_src = pd.read_csv(tmp_dir+"/"+zipname, skiprows=3)
+#						print(data_src)
+#						print(zipname, data_src.shape)
 
-						if str(year_min) not in data0:
+						if str(year_min) not in data_src:
 							incompatible_src.append(src)
 							break
 
 						for cc in country_index:
 							X = []
 							y = []
-							year0 = year_min
-							year1 = year_max
+							print("=====")
 
 							# check period
 							flag = 0
+							year0_src = year_min
+							year1_src = year_max
 							for yr in reversed(range(year_min, year_max+1)):
-								if flag == 0 and not pd.isnull(data0[str(yr)][country_num[cc]]) and not pd.isnull(data1[str(yr)][country_num[cc]]):
-									year1 = yr
+								if flag == 0 and not pd.isnull(data_src[str(yr)][country_num[cc]]):
+									year1_src = yr
 									flag = 1
-								elif flag == 1 and (pd.isnull(data0[str(yr)][country_num[cc]]) or pd.isnull(data1[str(yr)][country_num[cc]])):
-									year0 = yr+1
+								elif flag == 1 and pd.isnull(data_src[str(yr)][country_num[cc]]):
+									year0_src = yr+1
 									flag = 2
 									break
-
-#							print("=====")
-#							print(cc, year1, year0, gap_period, year1-year0, gap_period+1)
-							if flag == 0 or year1-year0 <= gap_period+1:
+							print(src, "["+cc+"]", dst, "src", year1_src, year0_src, year1_src-year0_src, gap_period+1)
+							if flag == 0 or year1_src-year0_src <= gap_period+1:
+								print("Skip.")
 								continue
 
-							for gap in range(gap_period):
+							flag = 0
+							year0_dst = year_min
+							year1_dst = year_max
+							for yr in reversed(range(year_min, year_max+1)):
+								if flag == 0 and not pd.isnull(data_dst[str(yr)][country_num[cc]]):
+									year1_dst = yr
+									flag = 1
+								elif flag == 1 and pd.isnull(data_dst[str(yr)][country_num[cc]]):
+									year0_dst = yr+1
+									flag = 2
+									break
+							print(src, "["+cc+"]", dst, "dst", year1_dst, year0_dst)
+							if flag == 0 or year1_dst-year0_dst <= gap_period+1:
+								print("Skip.")
+								continue
+
+							for gap in range(0, year1_src-gap_period-year0_src+1):
 								x_one = []
-								for yr in range(year0+gap_period-gap, year1+1-gap):
-#									print(cc, country_num[cc], yr)
-#									print(data0[yr][country_num[cc]], data1[yr][country_num[cc]])
-									x_one.append(data0[str(yr)][country_num[cc]])
+#								print("X", gap, year0_src+1+gap, year0_src+gap_period+gap+1)
+								for yr in range(year0_src+1+gap, year0_src+gap_period+gap+1):
+#									print(gap, yr, data_src[str(yr)][country_num[cc]])
+									x_one.append(data_src[str(yr)][country_num[cc]])
 #								print(len(x_one))
 								X.append(x_one)
 
-							for yr in range(year0+gap_period, year1+1):
-#								print(cc, country_num[cc], yr)
-#								print(data1[yr][country_num[cc]])
-								y.append(data1[str(yr)][country_num[cc]])
+#							print("y", year1_dst+1-gap_period, year1_dst+1)
+							for yr in range(year1_dst+1-gap_period, year1_dst+1):
+#								print(yr, data_dst[str(yr)][country_num[cc]])
+								y.append(data_dst[str(yr)][country_num[cc]])
 
 #							print(cc, "X-y", len(X), len(y))
 #							print(X, y)
@@ -191,6 +207,7 @@ for dst in gdp_index:
 								importances = clf.feature_importances_
 								corr = np.corrcoef(y, X)
 #								print("Success:", importances, r2, corr)
+#								print("Success:", importances)
 
 								i = 0
 								importance_val = 0
@@ -202,17 +219,16 @@ for dst in gdp_index:
 									i += 1
 
 								output[dst][cc].setdefault(src, {})
-#								output[dst][cc][src]["year"] = year1 - importance_gap
 								output[dst][cc][src]["importance"] = importance_val
 								output[dst][cc][src]["r2"] = r2
 								if str(corr[0][importance_gap+1]) != 'nan':
 									output[dst][cc][src]["cor"] = corr[0][importance_gap+1]
 								else:
-									output[dst][cc][src]["cor"] = 0
-								output[dst][cc][src]["x_year_0"] = year0+gap_period-importance_gap
-								output[dst][cc][src]["x_year_1"] = year1-importance_gap
-								output[dst][cc][src]["y_year_0"] = year0+gap_period
-								output[dst][cc][src]["y_year_1"] = year1
+									output[dst][cc][src]["cor"] = 10		# When it follows runtime error, x-values are not null, but always 0. As a result, it is OK to skip.
+								output[dst][cc][src]["x_year_0"] = year0_src+1+importance_gap
+								output[dst][cc][src]["x_year_1"] = year0_src+gap_period+importance_gap
+								output[dst][cc][src]["y_year_0"] = year1_dst+1-gap_period
+								output[dst][cc][src]["y_year_1"] = year1_dst
 								print("Identified Values:", dst, "["+cc+"]", src, importance_gap, importance_val, r2, output[dst][cc][src]["cor"])
 
 								# sleep to reduce CPU burden slightly (Please tune depending on your computer.)
