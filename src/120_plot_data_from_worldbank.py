@@ -19,7 +19,7 @@ tmp_dir = "./tmp"
 x_indices = ["NY.GDP.MKTP.CD", "NY.GDP.PCAP.CD"]
 y_indices = ["NY.GDP.MKTP.KD.ZG"]
 
-target_year = 2023
+target_year = 2024
 drop_cc = ["AFE", "AFW", "ARB", "CEB", "CSS", "EAP", "EAR", "EAS", "ECA", "ECS", "EMU", "EUU", "FCS", "HIC", "HPC", "IBD", "IBT", "IDA", "IDB", "IDX", "LAC", "LCN", "LDC", "LIC", "LMC", "LMY", "LTE", "MEA", "MIC", "MNA", "NAC", "OED", "OSS", "PRE", "PSS", "PST", "SAS", "SSA", "SSF", "SST", "TEA", "TEC", "TLA", "TMN", "TSA", "TSS", "UMC", "WLD"]
 # outliner
 drop_cc.extend(["USA", "CHN", "GUY", "MAC", "TLS", "SDN"])

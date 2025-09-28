@@ -6,6 +6,7 @@ import os
 import re
 import json
 
+import math
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import linkage, dendrogram, fcluster
@@ -17,8 +18,9 @@ indicators_file = "./download/_indicators.json"
 input_file = "./output/_importances.json.NY.GDP.MKTP.CD"
 output_dir = "./output"
 
-top = 20
-target_country_codes = ["USA", "JPN", "CHE", "AUT", "FIN", "SWE", "NOR", "ISL", "DNK", "EST", "LVA", "LTU", "POL", "DEU", "NLD", "BEL", "LUX", "CZE", "SVK", "HUN", "SVN", "SRB", "HRV", "BIH", "MNE", "ALB", "MKD", "ROU", "BGR", "MDA", "TUR", "CYP", "GRC", "ITA", "ESP", "PRT", "FRA", "MLT", "GBR", "IRL"]
+top = 50
+#target_country_codes = ["USA", "JPN", "CHE", "AUT", "FIN", "SWE", "NOR", "ISL", "DNK", "EST", "LVA", "LTU", "POL", "DEU", "NLD", "BEL", "LUX", "CZE", "SVK", "HUN", "SVN", "SRB", "HRV", "BIH", "MNE", "ALB", "MKD", "ROU", "BGR", "MDA", "TUR", "CYP", "GRC", "ITA", "ESP", "PRT", "FRA", "MLT", "GBR", "IRL"]
+target_country_codes = ["USA", "CHN", "JPN", "KOR", "ZAF", "EGY", "ARG", "BGD"]
 
 
 
@@ -65,11 +67,16 @@ for dst in importances.keys():
 	top_indeces = []
 	for cc in cc_list:
 		importances[dst].setdefault(cc, {})
+		importances_count = {}
 		order = {}
 		year = {}
 		for src in src_list:
 			importances[dst][cc].setdefault(src, {"importance": 0})
-			order[src] = importances[dst][cc][src]["importance"]
+			im = importances[dst][cc][src]["importance"]
+			im_cell = math.ceil(im * 10) / 10.0
+			importances_count.setdefault(round(im_cell, 1), 0)
+			importances_count[im_cell] += 1
+			order[src] = im
 
 		i = 0
 		output_path = output_dir+"/"+dst+"_"+cc+"_top"+str(top)+".tsv"
@@ -89,3 +96,11 @@ for dst in importances.keys():
 			if i >= top:
 				break
 		outfile.close()
+
+		output_path = output_dir+"/"+dst+"_"+cc+"_count.tsv"
+		outfile = open(output_path, 'w', encoding='utf-8')
+		outfile.write("Importance\tCount\n")
+		for k, v in sorted(importances_count.items(), key=lambda i: i[0], reverse=True):
+			outfile.write(str(k)+"\t"+str(v)+"\n")
+		outfile.close()
+

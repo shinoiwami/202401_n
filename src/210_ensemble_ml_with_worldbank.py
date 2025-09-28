@@ -8,6 +8,7 @@ import sys
 import time
 import json
 import zipfile
+import datetime
 
 import pandas as pd
 import numpy as np
@@ -39,9 +40,9 @@ test_index = []		# DEFAULT
 #test_index = ["SL.TLF.TOTL.FE.ZS", "SL.TLF.TOTL.IN", "SL.TLF.ADVN.ZS"]	# Labor force, female (% of total labor force); Labor force, total; Labor force with advanced education (% of total working-age population with advanced education)
 
 year_min = 1960
-year_max = 2023
+year_max = 2024
 
-gap_period = 20
+gap_period = 10
 
 
 ############################################################
@@ -73,6 +74,11 @@ if len(test_index) > 0:
 ###
 
 output = {}
+if os.path.exists(output_file):
+	f = open(output_file, 'r', encoding='UTF-8')
+	output = json.loads(f.read())
+	f.close()
+
 country_index = []
 country_name = {}
 country_num = {}
@@ -127,6 +133,19 @@ for dst in gdp_index:
 			output[dst].setdefault(cc, {})
 
 		for src in factor_index:
+			# check duplicate computation
+			check_flag = 0
+			ex_cc = None
+			for ex_cc in output[dst].keys():
+				if src in output[dst][ex_cc]:
+					check_flag = 1
+					print("Skip based on existing values:", dst, "["+ex_cc+"]", src)
+					break
+			if check_flag == 1:
+				continue
+      
+			#####
+			# Start to Compute Importance
 			print(src, dst)
 			with zipfile.ZipFile(input_dir+"/"+src+".zip") as zf:
 				zipnames = zf.namelist()
@@ -144,27 +163,9 @@ for dst in gdp_index:
 							break
 
 						for cc in country_index:
-							X = []
-							y = []
 							print("=====")
 
-							# check period
-							flag = 0
-							year0_src = year_min
-							year1_src = year_max
-							for yr in reversed(range(year_min, year_max+1)):
-								if flag == 0 and not pd.isnull(data_src[str(yr)][country_num[cc]]):
-									year1_src = yr
-									flag = 1
-								elif flag == 1 and pd.isnull(data_src[str(yr)][country_num[cc]]):
-									year0_src = yr+1
-									flag = 2
-									break
-							print(src, "["+cc+"]", dst, "src", year1_src, year0_src, year1_src-year0_src, gap_period+1)
-							if flag == 0 or year1_src-year0_src <= gap_period+1:
-								print("Skip.")
-								continue
-
+							# check period about dst (y)
 							flag = 0
 							year0_dst = year_min
 							year1_dst = year_max
@@ -176,83 +177,119 @@ for dst in gdp_index:
 									year0_dst = yr+1
 									flag = 2
 									break
-							print(src, "["+cc+"]", dst, "dst", year1_dst, year0_dst)
+#							print(src, "["+cc+"]", dst, "dst", year1_dst, year0_dst)
 							if flag == 0 or year1_dst-year0_dst <= gap_period+1:
-								print("Skip.")
+								print("Skip out of dst period:", dst, "["+cc+"]", src)
 								continue
 
-							for gap in range(0, year1_src-gap_period-year0_src+1):
-								x_one = []
-#								print("X", gap, year0_src+1+gap, year0_src+gap_period+gap+1)
-								for yr in range(year0_src+1+gap, year0_src+gap_period+gap+1):
-#									print(gap, yr, data_src[str(yr)][country_num[cc]])
-									x_one.append(data_src[str(yr)][country_num[cc]])
-#								print(len(x_one))
-								X.append(x_one)
+							##################################################
+							# Start y loop
+							j = 0
+							importance_val_tmp = 0
+							for shift in range(0, year1_dst-gap_period-year0_dst+1):
+								j += 1
+								# for dst, shift is limited to gap_period from the latest year of dst.
+								if j > gap_period:
+									break
 
-#							print("y", year1_dst+1-gap_period, year1_dst+1)
-							for yr in range(year1_dst+1-gap_period, year1_dst+1):
-#								print(yr, data_dst[str(yr)][country_num[cc]])
-								y.append(data_dst[str(yr)][country_num[cc]])
+								#####
+								# check period about src (x)
+								flag = 0
+								year0_src = year_min
+								year1_src = min(year_max, year1_dst-shift)
+								for yr in reversed(range(year0_src, year1_src+1)):
+									if flag == 0 and not pd.isnull(data_src[str(yr)][country_num[cc]]):
+										year1_src = yr
+										flag = 1
+									elif flag == 1 and pd.isnull(data_src[str(yr)][country_num[cc]]):
+										year0_src = yr+1
+										flag = 2
+										break
+#								print(src, "["+cc+"]", dst, "src", year1_src, year0_src, year1_src-year0_src, gap_period+1)
+								if flag == 0 or year1_src-year0_src <= gap_period+1:
+									print("Skip out of src period:", dst, "["+cc+"]", src)
+									break
 
-#							print(cc, "X-y", len(X), len(y))
-#							print(X, y)
-							Xnp = np.array(np.transpose(X), dtype='int64')
-							ynp = np.array(y, dtype='int64')
-							clf = ExtraTreesClassifier(n_estimators=100, random_state=0)
+								# set X matrix
+								X = []
+								for gap in range(0, year1_src-gap_period-year0_src+1):
+									x_one = []
+#									print("X", shift, year0_src, year1_src, "|", gap, year0_src+1+gap, year0_src+gap_period+gap+1)
+									for yr in range(year0_src+1+gap, year0_src+gap_period+gap+1):
+#										print(gap, yr, data_src[str(yr)][country_num[cc]])
+										x_one.append(data_src[str(yr)][country_num[cc]])
+#									print(len(x_one))
+									X.append(x_one)
 
-							try:
-								clf.fit(Xnp, ynp)
-								r2 = clf.score(Xnp, ynp)
-								importances = clf.feature_importances_
-								corr = np.corrcoef(y, X)
-#								print("Success:", importances, r2, corr)
-#								print("Success:", importances)
+								#####
+								# set y list
+								y = []
+#								print("y", year1_dst+1-gap_period-shift, year1_dst+1-shift, shift)
+								for yr in range(year1_dst+1-gap_period-shift, year1_dst+1-shift):
+#									print(yr, data_dst[str(yr)][country_num[cc]])
+									y.append(data_dst[str(yr)][country_num[cc]])
 
-								i = 0
-								importance_val = 0
-								importance_gap = 0
-								for im in importances:
-									if importance_val < im:
-										importance_val = im
-										importance_gap = i
-									i += 1
+#								print(cc, "X-y", len(X), len(y), importance_val_tmp)
+#								print(X, y)
+								Xnp = np.array(np.transpose(X), dtype='int64')
+								ynp = np.array(y, dtype='int64')
+								clf = ExtraTreesClassifier(n_estimators=100, random_state=0)
 
-								output[dst][cc].setdefault(src, {})
-								output[dst][cc][src]["importance"] = importance_val
-								output[dst][cc][src]["r2"] = r2
-								if str(corr[0][importance_gap+1]) != 'nan':
-									output[dst][cc][src]["cor"] = corr[0][importance_gap+1]
-								else:
-									output[dst][cc][src]["cor"] = 10		# When it follows runtime error, x-values are not null, but always 0. As a result, it is OK to skip.
-								output[dst][cc][src]["x_year_0"] = year0_src+1+importance_gap
-								output[dst][cc][src]["x_year_1"] = year0_src+gap_period+importance_gap
-								output[dst][cc][src]["y_year_0"] = year1_dst+1-gap_period
-								output[dst][cc][src]["y_year_1"] = year1_dst
-								print("Identified Values:", dst, "["+cc+"]", src, importance_gap, importance_val, r2, output[dst][cc][src]["cor"])
+								try:
+									clf.fit(Xnp, ynp)
+									r2 = clf.score(Xnp, ynp)
+									importances = clf.feature_importances_
+									corr = np.corrcoef(y, X)
+#									print("Success:", importances, r2, corr)
+#									print("Success:", dst, "["+cc+"]", src, r2, shift, year1_dst+1-gap_period-shift, year1_dst+1-shift)
 
-								# sleep to reduce CPU burden slightly (Please tune depending on your computer.)
-#								time.sleep(0.1)
+									i = 0
+									importance_val = 0
+									importance_gap = 0
+									for im in importances:
+										if importance_val < im:
+											importance_val = im
+											importance_gap = i
+										i += 1
+									print("Comparison:", dst, "["+cc+"]", src, shift, importance_val_tmp, importance_val, importance_gap, "|", year1_dst+1-shift, y[-1])
+									if importance_val <= importance_val_tmp:
+										continue
+									importance_val_tmp = importance_val
 
-							except ValueError as e:
-#								print("type:{0}".format(type(e)))
-#								print("args:{0}".format(e.args))
-#								print("message:{0}".format(e.message))
-								print("Failed:", "{0}".format(e))
-								continue
+									output[dst][cc].setdefault(src, {})
+									output[dst][cc][src]["importance"] = importance_val
+									output[dst][cc][src]["r2"] = r2
+									if str(corr[0][importance_gap+1]) != 'nan':
+										output[dst][cc][src]["cor"] = corr[0][importance_gap+1]
+									else:
+										output[dst][cc][src]["cor"] = 10		# When it follows runtime error, x-values are not null, but always 0. As a result, it is OK to skip.
+									output[dst][cc][src]["x_year_0"] = year0_src+1+importance_gap
+									output[dst][cc][src]["x_year_1"] = year0_src+gap_period+importance_gap
+									output[dst][cc][src]["y_year_0"] = year1_dst+1-gap_period-shift
+									output[dst][cc][src]["y_year_1"] = year1_dst-shift
+									print("Identified Values:", dst, "["+cc+"]", src, importance_gap, importance_val, r2, output[dst][cc][src]["cor"], shift, output[dst][cc][src]["x_year_1"], output[dst][cc][src]["y_year_1"])
+
+									# sleep to reduce CPU burden slightly (Please tune depending on your computer.)
+#									time.sleep(2)
+
+								except Exception as e:
+#									print("type:{0}".format(type(e)))
+#									print("args:{0}".format(e.args))
+#									print("message:{0}".format(e.message))
+									print("Failed:", "{0}".format(e))
+									continue
 
 						break
 
- 
-	###
-	# output
-	fw = open(output_file, 'w', encoding='UTF-8')
-	fw.write(json.dumps(output)+"\n")
-	fw.close()
+				###
+				# output
+				fw = open(output_file, 'w', encoding='UTF-8')
+				fw.write(json.dumps(output)+"\n")
+				fw.close()
 
-	fw = open(output_file+"."+dst, 'w', encoding='UTF-8')
-	fw.write(json.dumps(output)+"\n")
-	fw.close()
+				fw = open(output_file+"."+dst, 'w', encoding='UTF-8')
+				fw.write(json.dumps(output)+"\n")
+				fw.close()
 
 print("incompatible_src:", set(incompatible_src))
 

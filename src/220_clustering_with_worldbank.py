@@ -17,7 +17,7 @@ input_file3 = "./download/_countries.json"
 output_dir = "./output"
 
 removed_country_codes = ["AFE", "AFW", "ARB", "CEB", "CSS", "EAP", "EAR", "EAS", "ECA", "ECS", "EMU", "EUU", "FCS", "HIC", "HPC", "IBD", "IBT", "IDA", "IDB", "IDX", "LAC", "LCN", "LDC", "LIC", "LMC", "LMY", "LTE", "MEA", "MIC", "MNA", "NAC", "OED", "OSS", "PRE", "PSS", "PST", "SAS", "SSA", "SSF", "SST", "TEA", "TEC", "TLA", "TMN", "TSA", "TSS", "UMC", "WLD"]
-
+max_score_for_den = "1.0"
 
 
 ############################################################
@@ -74,9 +74,20 @@ for dst in importances.keys():
 	df.to_csv(output_dir+"/"+dst+".csv", encoding="utf_8")
 
 	### ref. https://analysis-navi.com/?p=1884
-	linkage_result = linkage(df, method='ward', metric='euclidean')
+	matrix = []
+	for cc in cc_list:
+		importances[dst].setdefault(cc, {})
+		row = []
+		for src in src_list:
+			importances[dst][cc].setdefault(src, {"importance": 0})
+			if importances[dst][cc][src]["importance"] >= float(max_score_for_den):
+				importances[dst][cc][src]["importance"] = 0
+			row.append(importances[dst][cc][src]["importance"])
+		matrix.append(row)
+	df_den = pd.DataFrame(matrix, index=[cc_list2, cc_list], columns=[src_list, src_list2])
+	linkage_result = linkage(df_den, method='ward', metric='euclidean')
 	plt.figure(num=None, figsize=(18, 6), dpi=200, facecolor='w', edgecolor='k')
 	plt.subplots_adjust(left=0.03, right=0.99, top=0.98, bottom=0.27)
 	dendrogram(linkage_result, labels=df.index)
 #	plt.show()
-	plt.savefig(output_dir+"/"+dst+".png")
+	plt.savefig(output_dir+"/"+dst+"."+str(max_score_for_den)+".png")
