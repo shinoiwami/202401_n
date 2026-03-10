@@ -1,4 +1,4 @@
-# blazae (former 202401_n)
+# blazar (former 202401_n)
 For computing GDP factors with World Bank Data.
 
 When you execute 120_plot_data_from_worldbank.py, please use after executing 210_ensemble_ml_with_worldbank.py.  
