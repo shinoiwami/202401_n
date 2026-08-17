@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	SH.TBS.DTEC.ZS	Tuberculosis case detection rate (%, all forms)	0.1	0.5335	2003 - 2022	2004 - 2023
+2	1.0	EG.USE.COMM.CL.ZS	Alternative and nuclear energy (% of total energy use)	0.1	0.8527	1996 - 2015	2004 - 2023
+3	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.4938	1989 - 2008	2004 - 2023
+4	1.0	SE.ENR.TERT.FM.ZS	School enrollment, tertiary (gross), gender parity index (GPI)	0.1	0.8083	1972 - 1991	2004 - 2023
+5	1.0	SH.STA.BRTC.ZS	Births attended by skilled health staff (% of total)	0.1	0.351	1990 - 2009	2004 - 2023
+6	0.4	IT.NET.BBND.P2	Fixed broadband subscriptions (per 100 people)	0.9	0.8793	2003 - 2022	2004 - 2023
+7	0.3882	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.9	0.0866	2003 - 2022	2004 - 2023
+8	0.3818	VC.IHR.PSRC.MA.P5	Intentional homicides, male (per 100,000 male)	0.6	-0.8433	2000 - 2019	2004 - 2023
+9	0.3773	GC.NFN.TOTL.GD.ZS	Net investment in nonfinancial assets (% of GDP)	0.6	0.3505	1996 - 2015	2004 - 2023
+10	0.3693	SH.STA.BASS.ZS	People using at least basic sanitation services (% of population)	0.8	0.8512	2002 - 2021	2004 - 2023
+11	0.368	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	0.8	0.8682	2001 - 2020	2004 - 2023
+12	0.3653	FD.RES.LIQU.AS.ZS	Bank liquid reserves to bank assets ratio (%)	1.0	0.6918	2004 - 2023	2004 - 2023
+13	0.3636	SH.H2O.BASW.UR.ZS	People using at least basic drinking water services, urban (% of urban population)	0.6	-0.8316	2002 - 2021	2004 - 2023
+14	0.36	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	1.0	-0.8926	2003 - 2022	2004 - 2023
+15	0.3565	SE.TER.ENRL.TC.ZS	Pupil-teacher ratio, tertiary	0.9	0.6257	1994 - 2013	2004 - 2023
+16	0.3544	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.95	0.4612	2002 - 2021	2004 - 2023
+17	0.3544	SH.STA.BASS.RU.ZS	People using at least basic sanitation services, rural (% of rural population)	0.85	0.8599	2001 - 2020	2004 - 2023
+18	0.3474	IT.NET.BBND	Fixed broadband subscriptions	1.0	0.9086	2004 - 2023	2004 - 2023
+19	0.3474	SH.XPD.CHEX.PC.CD	Current health expenditure per capita (current US$)	1.0	0.9189	2003 - 2022	2004 - 2023
+20	0.3474	GC.NFN.TOTL.CN	Net investment in nonfinancial assets (current LCU)	1.0	0.7121	1997 - 2016	2004 - 2023

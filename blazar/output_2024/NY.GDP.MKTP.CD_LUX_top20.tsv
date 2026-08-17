@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.4867	1989 - 2008	2004 - 2023
+2	0.4444	SH.H2O.SMDW.RU.ZS	People using safely managed drinking water services, rural (% of rural population)	0.5	-0.8099	2002 - 2021	2004 - 2023
+3	0.42	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.4	-0.8657	2002 - 2021	2004 - 2023
+4	0.3858	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.65	-0.8377	2001 - 2020	2004 - 2023
+5	0.3814	SH.XPD.CHEX.GD.ZS	Current health expenditure (% of GDP)	0.4	-0.6905	2002 - 2021	2004 - 2023
+6	0.3808	SH.XPD.GHED.GE.ZS	Domestic general government health expenditure (% of general government expenditure)	0.65	-0.7152	2003 - 2022	2004 - 2023
+7	0.3762	SH.XPD.GHED.GD.ZS	Domestic general government health expenditure (% of GDP)	0.45	-0.6574	2003 - 2022	2004 - 2023
+8	0.375	SH.STA.SMSS.RU.ZS	People using safely managed sanitation services, rural (% of rural population)	0.45	0.8021	2002 - 2021	2004 - 2023
+9	0.375	SH.STA.SMSS.UR.ZS	People using safely managed sanitation services, urban (% of urban population)	0.45	0.8097	2002 - 2021	2004 - 2023
+10	0.37	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.7	-0.8123	2002 - 2021	2004 - 2023
+11	0.3689	SH.HIV.ARTC.ZS	Antiretroviral therapy coverage (% of people living with HIV)	1.0	0.9215	2002 - 2021	2004 - 2023
+12	0.3679	SH.XPD.GHED.CH.ZS	Domestic general government health expenditure (% of current health expenditure)	0.75	0.4871	2003 - 2022	2004 - 2023
+13	0.3656	AG.PRD.LVSK.XD	Livestock production index (2014-2016 = 100)	0.95	0.7967	2001 - 2020	2004 - 2023
+14	0.3636	SL.UEM.ADVN.MA.ZS	Unemployment with advanced education, male (% of male labor force with advanced education)	0.6	0.5327	2004 - 2023	2004 - 2023
+15	0.3633	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	0.95	-0.4537	2001 - 2020	2004 - 2023
+16	0.3544	FS.AST.CGOV.GD.ZS	Claims on central government, etc. (% GDP)	0.95	0.6818	2003 - 2022	2004 - 2023
+17	0.3541	SH.XPD.PVTD.CH.ZS	Domestic private health expenditure (% of current health expenditure)	0.9	-0.7071	2002 - 2021	2004 - 2023
+18	0.3489	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	1.0	0.7248	2003 - 2022	2004 - 2023
+19	0.3489	SH.XPD.OOPC.PC.CD	Out-of-pocket expenditure per capita (current US$)	1.0	-0.4585	2003 - 2022	2004 - 2023
+20	0.3478	SH.MED.NUMW.P3	Nurses and midwives (per 1,000 people)	0.5	0.8554	1997 - 2016	2004 - 2023

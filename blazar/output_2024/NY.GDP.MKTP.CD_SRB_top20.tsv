@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	0.5	AG.SRF.TOTL.K2	Surface area (sq. km)	0.15	-0.5669	2001 - 2020	2004 - 2023
+2	0.5	SH.H2O.BASW.UR.ZS	People using at least basic drinking water services, urban (% of urban population)	0.95	0.7949	2002 - 2021	2004 - 2023
+3	0.44	EG.ELC.RNWX.KH	Electricity production from renewable sources, excluding hydroelectric (kWh)	0.25	0.7839	1996 - 2015	2004 - 2023
+4	0.4121	EG.CFT.ACCS.UR.ZS	Access to clean fuels and technologies for cooking, urban (% of urban population)	1.0	0.822	2002 - 2021	2004 - 2023
+5	0.4	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.55	-0.7427	2002 - 2021	2004 - 2023
+6	0.3985	MS.MIL.XPND.ZS	Military expenditure (% of general government expenditure)	0.7	-0.6871	2001 - 2020	2004 - 2023
+7	0.3911	SE.PRM.ENRR.FE	School enrollment, primary, female (% gross)	1.0	-0.5333	2003 - 2022	2004 - 2023
+8	0.3821	SE.PRM.ENRR	School enrollment, primary (% gross)	1.0	-0.5381	2003 - 2022	2004 - 2023
+9	0.3758	SE.PRE.ENRR	School enrollment, preprimary (% gross)	1.0	0.6367	2001 - 2020	2004 - 2023
+10	0.3716	SE.SEC.ENRR.MA	School enrollment, secondary, male (% gross)	1.0	0.4274	2002 - 2021	2004 - 2023
+11	0.3684	SE.PRM.ENRR.MA	School enrollment, primary, male (% gross)	1.0	-0.5411	2003 - 2022	2004 - 2023
+12	0.3656	SE.PRE.ENRR.MA	School enrollment, preprimary, male (% gross)	0.95	0.6324	2001 - 2020	2004 - 2023
+13	0.3636	SH.STA.STNT.ME.ZS	Prevalence of stunting, height for age (modeled estimate, % of children under 5)	0.6	-0.7318	2002 - 2021	2004 - 2023
+14	0.3636	SH.H2O.BASW.RU.ZS	People using at least basic drinking water services, rural (% of rural population)	0.6	0.7959	2002 - 2021	2004 - 2023
+15	0.3616	SE.PRE.ENRR.FE	School enrollment, preprimary, female (% gross)	1.0	0.6404	2001 - 2020	2004 - 2023
+16	0.3589	SH.STA.OWGH.ME.ZS	Prevalence of overweight (modeled estimate, % of children under 5)	0.95	-0.6752	2002 - 2021	2004 - 2023
+17	0.3571	SE.ENR.PRIM.FM.ZS	School enrollment, primary (gross), gender parity index (GPI)	0.4	0.1246	2002 - 2021	2004 - 2023
+18	0.3571	SH.STA.SMSS.UR.ZS	People using safely managed sanitation services, urban (% of urban population)	0.75	-0.7985	2002 - 2021	2004 - 2023
+19	0.3565	SE.SEC.ENRR.FE	School enrollment, secondary, female (% gross)	0.9	0.3465	2002 - 2021	2004 - 2023
+20	0.3542	SL.UEM.TOTL.MA.NE.ZS	Unemployment, male (% of male labor force) (national estimate)	1.0	-0.5815	2004 - 2023	2004 - 2023

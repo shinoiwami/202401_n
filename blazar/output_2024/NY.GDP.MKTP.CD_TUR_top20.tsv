@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	SP.POP.80UP.MA.5Y	Population ages 80 and above, male (% of male population)	0.1	0.6457	2004 - 2023	2004 - 2023
+2	0.5	SH.MED.PHYS.ZS	Physicians (per 1,000 people)	0.15	0.7379	1991 - 2010	2004 - 2023
+3	0.5	EG.CFT.ACCS.UR.ZS	Access to clean fuels and technologies for cooking, urban (% of urban population)	0.25	0.8247	2001 - 2020	2004 - 2023
+4	0.4975	SH.TBS.DTEC.ZS	Tuberculosis case detection rate (%, all forms)	0.25	-0.229	2003 - 2022	2004 - 2023
+5	0.4	SH.STA.BASS.UR.ZS	People using at least basic sanitation services, urban (% of urban population)	0.55	0.712	2001 - 2020	2004 - 2023
+6	0.3925	EG.ELC.ACCS.RU.ZS	Access to electricity, rural (% of rural population)	0.25	-0.0525	2002 - 2021	2004 - 2023
+7	0.38	EG.CFT.ACCS.RU.ZS	Access to clean fuels and technologies for cooking, rural (% of rural population)	0.4	0.8539	2001 - 2020	2004 - 2023
+8	0.3778	SH.STA.STNT.ME.ZS	Prevalence of stunting, height for age (modeled estimate, % of children under 5)	0.95	-0.7391	2002 - 2021	2004 - 2023
+9	0.3758	SH.STA.BASS.ZS	People using at least basic sanitation services (% of population)	1.0	0.7268	2002 - 2021	2004 - 2023
+10	0.3746	MS.MIL.XPND.ZS	Military expenditure (% of general government expenditure)	0.7	-0.5803	2001 - 2020	2004 - 2023
+11	0.3743	SH.STA.OWGH.ME.ZS	Prevalence of overweight (modeled estimate, % of children under 5)	0.75	0.6562	2002 - 2021	2004 - 2023
+12	0.3713	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.85	-0.6166	2003 - 2022	2004 - 2023
+13	0.3684	SH.H2O.BASW.RU.ZS	People using at least basic drinking water services, rural (% of rural population)	1.0	0.7051	2002 - 2021	2004 - 2023
+14	0.3679	SH.STA.SMSS.UR.ZS	People using safely managed sanitation services, urban (% of urban population)	1.0	0.6948	2003 - 2022	2004 - 2023
+15	0.3636	EG.CFT.ACCS.ZS	Access to clean fuels and technologies for cooking (% of population)	0.6	0.8291	2002 - 2021	2004 - 2023
+16	0.3636	SH.H2O.BASW.ZS	People using at least basic drinking water services (% of population)	0.6	0.7324	2001 - 2020	2004 - 2023
+17	0.3632	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	1.0	-0.6427	2002 - 2021	2004 - 2023
+18	0.3563	IT.NET.BBND.P2	Fixed broadband subscriptions (per 100 people)	1.0	0.7186	2004 - 2023	2004 - 2023
+19	0.3542	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	1.0	0.6904	2003 - 2022	2004 - 2023
+20	0.3479	SH.STA.BASS.RU.ZS	People using at least basic sanitation services, rural (% of rural population)	1.0	0.711	2001 - 2020	2004 - 2023

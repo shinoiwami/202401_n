@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.39	1989 - 2008	2004 - 2023
+2	1.0	NY.GDP.DISC.KN	Discrepancy in expenditure estimate of GDP (constant LCU)	0.1	0.6137	2004 - 2023	2004 - 2023
+3	0.5	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.25	-0.786	2001 - 2020	2004 - 2023
+4	0.5	EG.ELC.HYRO.ZS	Electricity production from hydroelectric sources (% of total)	0.15	0.6876	1995 - 2014	2004 - 2023
+5	0.4833	NY.GDP.DISC.CN	Discrepancy in expenditure estimate of GDP (current LCU)	0.2	0.3406	1992 - 2011	2004 - 2023
+6	0.3777	SH.H2O.SMDW.ZS	People using safely managed drinking water services (% of population)	0.7	0.8223	2003 - 2022	2004 - 2023
+7	0.3724	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	0.9	-0.3308	2003 - 2022	2004 - 2023
+8	0.367	SH.H2O.SMDW.UR.ZS	People using safely managed drinking water services, urban (% of urban population)	0.55	0.8506	2002 - 2021	2004 - 2023
+9	0.365	SH.H2O.SMDW.RU.ZS	People using safely managed drinking water services, rural (% of rural population)	0.55	0.8467	2002 - 2021	2004 - 2023
+10	0.3605	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	1.0	-0.7564	2003 - 2022	2004 - 2023
+11	0.3589	NY.GNP.PCAP.KD.ZG	GNI per capita growth (annual %)	1.0	-0.0227	2002 - 2021	2004 - 2023
+12	0.3529	SH.STA.SMSS.UR.ZS	People using safely managed sanitation services, urban (% of urban population)	0.9	0.7224	2003 - 2022	2004 - 2023
+13	0.3524	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	0.9	0.7697	2001 - 2020	2004 - 2023
+14	0.3471	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.9	-0.6175	2002 - 2021	2004 - 2023
+15	0.3465	SH.STA.SMSS.RU.ZS	People using safely managed sanitation services, rural (% of rural population)	0.9	0.792	2001 - 2020	2004 - 2023
+16	0.34	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.9	-0.6211	2002 - 2021	2004 - 2023
+17	0.3374	FD.RES.LIQU.AS.ZS	Bank liquid reserves to bank assets ratio (%)	1.0	0.4061	2004 - 2023	2004 - 2023
+18	0.3333	SH.STA.BASS.ZS	People using at least basic sanitation services (% of population)	0.2	-0.751	2001 - 2020	2004 - 2023
+19	0.3333	SH.H2O.BASW.ZS	People using at least basic drinking water services (% of population)	0.2	0.8148	2001 - 2020	2004 - 2023
+20	0.3333	SH.H2O.BASW.RU.ZS	People using at least basic drinking water services, rural (% of rural population)	0.2	0.7611	2001 - 2020	2004 - 2023

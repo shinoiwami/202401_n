@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	SH.TBS.DTEC.ZS	Tuberculosis case detection rate (%, all forms)	0.1	0.5309	2003 - 2022	2004 - 2023
+2	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.4192	1989 - 2008	2004 - 2023
+3	0.4125	SH.XPD.CHEX.GD.ZS	Current health expenditure (% of GDP)	0.45	0.6456	2002 - 2021	2004 - 2023
+4	0.4	SH.H2O.BASW.RU.ZS	People using at least basic drinking water services, rural (% of rural population)	0.3	-0.5005	2002 - 2021	2004 - 2023
+5	0.3837	SH.STA.SMSS.RU.ZS	People using safely managed sanitation services, rural (% of rural population)	1.0	0.4516	2003 - 2022	2004 - 2023
+6	0.3783	SH.H2O.SMDW.RU.ZS	People using safely managed drinking water services, rural (% of rural population)	0.35	0.3951	2002 - 2021	2004 - 2023
+7	0.376	SE.ENR.PRSC.FM.ZS	School enrollment, primary and secondary (gross), gender parity index (GPI)	0.3	-0.1312	2000 - 2019	2004 - 2023
+8	0.3695	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	1.0	0.4483	2002 - 2021	2004 - 2023
+9	0.3684	SE.PRE.ENRR	School enrollment, preprimary (% gross)	1.0	0.4367	2001 - 2020	2004 - 2023
+10	0.3607	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.8	0.0472	2001 - 2020	2004 - 2023
+11	0.3571	SE.XPD.TOTL.GD.ZS	Government expenditure on education, total (% of GDP)	0.4	-0.5271	2002 - 2021	2004 - 2023
+12	0.3553	FS.AST.CGOV.GD.ZS	Claims on central government, etc. (% GDP)	0.8	0.433	2004 - 2023	2004 - 2023
+13	0.3553	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.8	-0.0288	2001 - 2020	2004 - 2023
+14	0.3553	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	1.0	-0.5657	2002 - 2021	2004 - 2023
+15	0.3521	FM.AST.PRVT.GD.ZS	Monetary Sector credit to private sector (% GDP)	1.0	-0.179	2004 - 2023	2004 - 2023
+16	0.3521	FS.AST.PRVT.GD.ZS	Domestic credit to private sector (% of GDP)	1.0	-0.179	2004 - 2023	2004 - 2023
+17	0.3513	SE.PRM.UNER.ZS	Children out of school (% of primary school age)	0.45	0.0035	2000 - 2019	2004 - 2023
+18	0.3474	FD.AST.PRVT.GD.ZS	Domestic credit to private sector by banks (% of GDP)	1.0	-0.1788	2004 - 2023	2004 - 2023
+19	0.3474	IS.SHP.GOOD.TU	Container port traffic (TEU: 20 foot equivalent units)	1.0	0.3728	2003 - 2022	2004 - 2023
+20	0.3474	SH.XPD.OOPC.PP.CD	Out-of-pocket expenditure per capita, PPP (current international $)	1.0	0.604	2003 - 2022	2004 - 2023

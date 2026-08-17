@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	NY.ADJ.DNGY.GN.ZS	Adjusted savings: energy depletion (% of GNI)	0.1	-0.3574	1995 - 2014	2004 - 2023
+2	1.0	NY.GDP.NGAS.RT.ZS	Natural gas rents (% of GDP)	0.1	-0.4647	1995 - 2014	2004 - 2023
+3	0.5	TX.VAL.MRCH.R3.ZS	Merchandise exports to low- and middle-income economies in Latin America &amp; the Caribbean (% of total merchandise exports)	0.15	-0.585	1994 - 2013	2004 - 2023
+4	0.4667	EN.GHG.CO2.RT.GDP.PP.KD	Carbon intensity of GDP (kg CO2e per 2021 PPP $ of GDP)	0.2	-0.6762	1991 - 2010	2004 - 2023
+5	0.466	SH.H2O.SMDW.ZS	People using safely managed drinking water services (% of population)	0.3	-0.1329	2003 - 2022	2004 - 2023
+6	0.4093	NE.CON.GOVT.KD.ZG	General government final consumption expenditure (annual % growth)	0.75	-0.0173	2002 - 2021	2004 - 2023
+7	0.3863	NY.GNP.MKTP.KD.ZG	GNI growth (annual %)	1.0	-0.0302	2003 - 2022	2004 - 2023
+8	0.3853	EG.CFT.ACCS.UR.ZS	Access to clean fuels and technologies for cooking, urban (% of urban population)	1.0	-0.825	2002 - 2021	2004 - 2023
+9	0.3831	SH.TBS.DTEC.ZS	Tuberculosis case detection rate (%, all forms)	0.7	-0.5986	2003 - 2022	2004 - 2023
+10	0.3756	ST.INT.XPND.MP.ZS	International tourism, expenditures (% of total imports)	0.5	0.2724	2001 - 2020	2004 - 2023
+11	0.375	SH.STA.STNT.ME.ZS	Prevalence of stunting, height for age (modeled estimate, % of children under 5)	0.45	-0.7729	2002 - 2021	2004 - 2023
+12	0.3746	FB.BNK.CAPA.ZS	Bank capital to assets ratio (%)	0.7	-0.626	2001 - 2020	2004 - 2023
+13	0.3742	SH.STA.OWGH.ME.ZS	Prevalence of overweight (modeled estimate, % of children under 5)	1.0	-0.741	2002 - 2021	2004 - 2023
+14	0.3733	ST.INT.RCPT.XP.ZS	International tourism, receipts (% of total exports)	0.95	-0.6645	2001 - 2020	2004 - 2023
+15	0.3717	SH.DYN.2024	Probability of dying among youth ages 20-24 years (per 1,000)	0.35	-0.5516	1991 - 2010	2004 - 2023
+16	0.3683	NE.CON.PRVT.PC.KD.ZG	Households and NPISHs Final consumption expenditure per capita growth (annual %)	0.95	-0.2843	2002 - 2021	2004 - 2023
+17	0.3636	SH.H2O.BASW.UR.ZS	People using at least basic drinking water services, urban (% of urban population)	0.6	-0.792	2001 - 2020	2004 - 2023
+18	0.36	SH.STA.SMSS.UR.ZS	People using safely managed sanitation services, urban (% of urban population)	0.9	0.8096	2002 - 2021	2004 - 2023
+19	0.3584	EG.CFT.ACCS.RU.ZS	Access to clean fuels and technologies for cooking, rural (% of rural population)	1.0	-0.8641	2003 - 2022	2004 - 2023
+20	0.3584	NE.IMP.GNFS.KD.ZG	Imports of goods and services (annual % growth)	1.0	-0.0075	2003 - 2022	2004 - 2023

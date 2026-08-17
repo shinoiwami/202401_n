@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	0.5	PA.NUS.PPP	PPP conversion factor, GDP (LCU per international $)	0.15	-0.9461	2003 - 2022	2004 - 2023
+2	0.4667	TM.TAX.MANF.WM.FN.ZS	Tariff rate, most favored nation, weighted mean, manufactured products (%)	0.2	-0.8	1996 - 2015	2004 - 2023
+3	0.4	SH.STA.SMSS.RU.ZS	People using safely managed sanitation services, rural (% of rural population)	0.55	0.7698	2002 - 2021	2004 - 2023
+4	0.39	PA.NUS.PRVT.PP	PPP conversion factor, private consumption (LCU per international $)	0.2	-0.8957	1991 - 2010	2004 - 2023
+5	0.3725	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	0.85	-0.8151	2001 - 2020	2004 - 2023
+6	0.355	SE.ENR.PRIM.FM.ZS	School enrollment, primary (gross), gender parity index (GPI)	0.35	-0.749	2001 - 2020	2004 - 2023
+7	0.3542	SE.PRE.ENRR	School enrollment, preprimary (% gross)	1.0	0.9214	1999 - 2018	2004 - 2023
+8	0.3514	SH.H2O.BASW.ZS	People using at least basic drinking water services (% of population)	0.4	-0.0374	2003 - 2022	2004 - 2023
+9	0.3489	BX.TRF.PWKR.CD	Personal transfers, receipts (BoP, current US$)	0.95	0.9109	1979 - 1998	2004 - 2023
+10	0.3472	SE.PRE.ENRR.FE	School enrollment, preprimary, female (% gross)	0.95	0.8488	2001 - 2020	2004 - 2023
+11	0.3432	SE.PRE.ENRR.MA	School enrollment, preprimary, male (% gross)	1.0	0.8356	2001 - 2020	2004 - 2023
+12	0.3333	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.2	-0.9136	2001 - 2020	2004 - 2023
+13	0.3333	TM.VAL.MRCH.R5.ZS	Merchandise imports from low- and middle-income economies in South Asia (% of total merchandise imports)	0.2	0.8012	1999 - 2018	2004 - 2023
+14	0.3333	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	0.2	0.7525	2001 - 2020	2004 - 2023
+15	0.3333	EN.GHG.CH4.FE.MT.CE.AR5	Methane (CH4) emissions from Fugitive Emissions (Energy) (Mt CO2e)	0.2	0.8877	2001 - 2020	2004 - 2023
+16	0.2921	SE.PRM.CMPT.ZS	Primary completion rate, total (% of relevant age group)	1.0	-0.373	2003 - 2022	2004 - 2023
+17	0.2772	SE.PRM.CMPT.MA.ZS	Primary completion rate, male (% of relevant age group)	0.95	-0.137	2001 - 2020	2004 - 2023
+18	0.2755	SE.PRM.ENRR.FE	School enrollment, primary, female (% gross)	0.6	-0.7632	2000 - 2019	2004 - 2023
+19	0.2678	SE.PRM.CMPT.FE.ZS	Primary completion rate, female (% of relevant age group)	0.95	-0.4165	2002 - 2021	2004 - 2023
+20	0.2631	SE.XPD.CPRM.ZS	Current education expenditure, primary (% of total expenditure in primary public institutions)	0.85	-0.2315	1999 - 2018	2004 - 2023

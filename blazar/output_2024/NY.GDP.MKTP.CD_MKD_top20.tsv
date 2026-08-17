@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	0.645	EG.ELC.RNWX.ZS	Electricity production from renewable sources, excluding hydroelectric (% of total)	0.15	0.5285	1996 - 2015	2004 - 2023
+2	0.5	AG.LND.CROP.ZS	Permanent cropland (% of land area)	0.15	-0.9298	1993 - 2012	2004 - 2023
+3	0.5	TM.VAL.MRCH.AL.ZS	Merchandise imports from economies in the Arab World (% of total merchandise imports)	0.15	-0.7183	1994 - 2013	2004 - 2023
+4	0.41	EG.ELC.RNWX.KH	Electricity production from renewable sources, excluding hydroelectric (kWh)	0.3	0.5285	1996 - 2015	2004 - 2023
+5	0.41	TM.VAL.MRCH.R4.ZS	Merchandise imports from low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise imports)	0.2	-0.8223	1994 - 2013	2004 - 2023
+6	0.4017	SH.STA.BASS.ZS	People using at least basic sanitation services (% of population)	0.95	0.9375	2002 - 2021	2004 - 2023
+7	0.4	SH.STA.BASS.UR.ZS	People using at least basic sanitation services, urban (% of urban population)	0.8	0.937	2002 - 2021	2004 - 2023
+8	0.3858	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	1.0	-0.9366	2002 - 2021	2004 - 2023
+9	0.3846	SH.STA.STNT.ME.ZS	Prevalence of stunting, height for age (modeled estimate, % of children under 5)	0.7	-0.8927	2002 - 2021	2004 - 2023
+10	0.3825	SH.TBS.DTEC.ZS	Tuberculosis case detection rate (%, all forms)	0.25	-0.4214	2001 - 2020	2004 - 2023
+11	0.38	EG.ELC.NGAS.ZS	Electricity production from natural gas sources (% of total)	0.3	0.6653	1996 - 2015	2004 - 2023
+12	0.375	EG.CFT.ACCS.UR.ZS	Access to clean fuels and technologies for cooking, urban (% of urban population)	0.95	0.9404	2002 - 2021	2004 - 2023
+13	0.3642	EG.CFT.ACCS.RU.ZS	Access to clean fuels and technologies for cooking, rural (% of rural population)	1.0	0.9191	2003 - 2022	2004 - 2023
+14	0.361	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.55	-0.5318	2001 - 2020	2004 - 2023
+15	0.3553	FD.RES.LIQU.AS.ZS	Bank liquid reserves to bank assets ratio (%)	1.0	0.832	2002 - 2021	2004 - 2023
+16	0.3528	SH.STA.BASS.RU.ZS	People using at least basic sanitation services, rural (% of rural population)	0.95	0.9398	2002 - 2021	2004 - 2023
+17	0.3484	EG.CFT.ACCS.ZS	Access to clean fuels and technologies for cooking (% of population)	1.0	0.9575	2003 - 2022	2004 - 2023
+18	0.3474	NY.TRF.NCTR.KN	Net secondary income (Net current transfers from abroad) (constant LCU)	1.0	0.9397	1993 - 2012	2004 - 2023
+19	0.3461	SH.STA.MMRT.NE	Maternal mortality ratio (national estimate, per 100,000 live births)	0.95	-0.3273	1992 - 2011	2004 - 2023
+20	0.3444	SH.STA.OWGH.ME.ZS	Prevalence of overweight (modeled estimate, % of children under 5)	0.85	-0.7492	2003 - 2022	2004 - 2023

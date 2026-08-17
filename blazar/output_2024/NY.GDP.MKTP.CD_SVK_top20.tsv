@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.5286	1989 - 2008	2004 - 2023
+2	1.0	SH.MED.PHYS.ZS	Physicians (per 1,000 people)	0.1	0.7278	2002 - 2021	2004 - 2023
+3	0.5	SE.ENR.TERT.FM.ZS	School enrollment, tertiary (gross), gender parity index (GPI)	0.15	0.7661	1994 - 2013	2004 - 2023
+4	0.5	TX.VAL.MRCH.R4.ZS	Merchandise exports to low- and middle-income economies in Middle East &amp; North Africa (% of total merchandise exports)	0.15	-0.7077	1994 - 2013	2004 - 2023
+5	0.455	NY.GDP.DISC.CN	Discrepancy in expenditure estimate of GDP (current LCU)	0.25	0.1707	1991 - 2010	2004 - 2023
+6	0.39	SH.H2O.SMDW.ZS	People using safely managed drinking water services (% of population)	0.7	0.8091	2002 - 2021	2004 - 2023
+7	0.3771	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.9	0.5495	2003 - 2022	2004 - 2023
+8	0.3685	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.7	-0.844	2001 - 2020	2004 - 2023
+9	0.3679	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	1.0	0.1606	2002 - 2021	2004 - 2023
+10	0.3629	SH.H2O.BASW.RU.ZS	People using at least basic drinking water services, rural (% of rural population)	0.4	0.6629	2002 - 2021	2004 - 2023
+11	0.3613	SE.XPD.CTOT.ZS	Current education expenditure, total (% of total expenditure in public institutions)	0.85	-0.1282	2000 - 2019	2004 - 2023
+12	0.3569	SE.XPD.CPRM.ZS	Current education expenditure, primary (% of total expenditure in primary public institutions)	0.85	0.0112	2002 - 2021	2004 - 2023
+13	0.3526	SE.XPD.CTER.ZS	Current education expenditure, tertiary (% of total expenditure in tertiary public institutions)	1.0	0.0181	2001 - 2020	2004 - 2023
+14	0.352	SE.XPD.CSEC.ZS	Current education expenditure, secondary (% of total expenditure in secondary public institutions)	0.8	0.2396	2001 - 2020	2004 - 2023
+15	0.35	SH.IMM.HEPB	Immunization, HepB3 (% of one-year-old children)	0.45	-0.5045	2003 - 2022	2004 - 2023
+16	0.3489	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	1.0	-0.8615	2003 - 2022	2004 - 2023
+17	0.3474	SP.POP.TECH.RD.P6	Technicians in R&amp;D (per million people)	1.0	-0.6048	1999 - 2018	2004 - 2023
+18	0.346	SE.XPD.TOTL.GD.ZS	Government expenditure on education, total (% of GDP)	0.3	0.2749	2002 - 2021	2004 - 2023
+19	0.3437	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	1.0	0.3891	2003 - 2022	2004 - 2023
+20	0.3333	SH.STA.BASS.ZS	People using at least basic sanitation services (% of population)	0.35	-0.79	2001 - 2020	2004 - 2023

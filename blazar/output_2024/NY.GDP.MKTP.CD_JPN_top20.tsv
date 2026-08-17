@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	0.3742	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.65	0.016	2001 - 2020	2004 - 2023
+2	0.3632	FS.AST.DOMO.GD.ZS	Claims on other sectors of the domestic economy (% of GDP)	1.0	-0.5025	2003 - 2022	2004 - 2023
+3	0.3616	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	1.0	-0.4385	2001 - 2020	2004 - 2023
+4	0.36	FD.RES.LIQU.AS.ZS	Bank liquid reserves to bank assets ratio (%)	0.95	-0.426	2003 - 2022	2004 - 2023
+5	0.3479	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	1.0	0.1796	2002 - 2021	2004 - 2023
+6	0.3474	SP.POP.TECH.RD.P6	Technicians in R&amp;D (per million people)	1.0	0.2276	1999 - 2018	2004 - 2023
+7	0.3474	GC.NFN.TOTL.CN	Net investment in nonfinancial assets (current LCU)	1.0	0.0947	1997 - 2016	2004 - 2023
+8	0.3474	IS.SHP.GOOD.TU	Container port traffic (TEU: 20 foot equivalent units)	1.0	-0.1371	2003 - 2022	2004 - 2023
+9	0.3333	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	0.5	-0.2116	2001 - 2020	2004 - 2023
+10	0.3333	SH.DYN.1519	Probability of dying among adolescents ages 15-19 years (per 1,000)	0.2	0.2732	1991 - 2010	2004 - 2023
+11	0.3333	MS.MIL.XPND.GD.ZS	Military expenditure (% of GDP)	0.2	-0.4917	2001 - 2020	2004 - 2023
+12	0.3333	SH.STA.STNT.ME.ZS	Prevalence of stunting, height for age (modeled estimate, % of children under 5)	0.5	0.2565	2001 - 2020	2004 - 2023
+13	0.3333	SH.STA.OWGH.ME.ZS	Prevalence of overweight (modeled estimate, % of children under 5)	0.2	-0.4125	2001 - 2020	2004 - 2023
+14	0.3333	SH.H2O.BASW.ZS	People using at least basic drinking water services (% of population)	0.2	-0.2839	2001 - 2020	2004 - 2023
+15	0.3333	MS.MIL.XPND.ZS	Military expenditure (% of general government expenditure)	0.2	-0.1649	1989 - 2008	2004 - 2023
+16	0.3333	SH.H2O.SMDW.ZS	People using safely managed drinking water services (% of population)	0.2	-0.2841	2001 - 2020	2004 - 2023
+17	0.3333	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.2	0.3069	2001 - 2020	2004 - 2023
+18	0.2975	FR.INR.LEND	Lending interest rate (%)	0.45	0.0029	1994 - 2013	2004 - 2023
+19	0.2626	TX.UVI.MRCH.XD.WD	Export unit value index (2015 = 100)	1.0	0.5943	2003 - 2022	2004 - 2023
+20	0.2589	SM.POP.REFG.OR	Refugee population by country or territory of origin	1.0	0.2124	2003 - 2022	2004 - 2023

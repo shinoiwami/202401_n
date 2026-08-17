@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.5263	1989 - 2008	2004 - 2023
+2	0.5	NY.GDP.DISC.KN	Discrepancy in expenditure estimate of GDP (constant LCU)	0.15	0.4357	2003 - 2022	2004 - 2023
+3	0.5	AG.LND.TOTL.K2	Land area (sq. km)	0.15	0.4357	2001 - 2020	2004 - 2023
+4	0.5	AG.SRF.TOTL.K2	Surface area (sq. km)	0.15	-0.4357	2001 - 2020	2004 - 2023
+5	0.5	EN.GHG.CO2.RT.GDP.KD	Carbon intensity of GDP (kg CO2e per constant 2015 US$ of GDP)	0.15	-0.7489	1991 - 2010	2004 - 2023
+6	0.4029	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.4	-0.7862	2001 - 2020	2004 - 2023
+7	0.3846	SH.H2O.SMDW.ZS	People using safely managed drinking water services (% of population)	0.7	0.797	2003 - 2022	2004 - 2023
+8	0.384	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.8	0.4998	2003 - 2022	2004 - 2023
+9	0.375	SH.H2O.BASW.RU.ZS	People using at least basic drinking water services, rural (% of rural population)	0.45	0.8249	2001 - 2020	2004 - 2023
+10	0.3711	SE.PRM.PRSL.MA.ZS	Persistence to last grade of primary, male (% of cohort)	1.0	-0.1992	2002 - 2021	2004 - 2023
+11	0.3711	SH.HIV.ARTC.ZS	Antiretroviral therapy coverage (% of people living with HIV)	1.0	0.8016	2002 - 2021	2004 - 2023
+12	0.3677	SE.PRM.PRSL.FE.ZS	Persistence to last grade of primary, female (% of cohort)	0.7	0.0737	2002 - 2021	2004 - 2023
+13	0.3594	SH.STA.OWGH.ME.ZS	Prevalence of overweight (modeled estimate, % of children under 5)	0.85	-0.7075	2002 - 2021	2004 - 2023
+14	0.3589	SE.PRM.PRSL.ZS	Persistence to last grade of primary, total (% of cohort)	1.0	-0.0704	2002 - 2021	2004 - 2023
+15	0.3567	GC.TAX.OTHR.RV.ZS	Other taxes (% of revenue)	0.35	-0.7544	2003 - 2022	2004 - 2023
+16	0.3532	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	1.0	0.2785	2003 - 2022	2004 - 2023
+17	0.3521	GC.NFN.TOTL.GD.ZS	Net investment in nonfinancial assets (% of GDP)	0.75	0.5158	1997 - 2016	2004 - 2023
+18	0.3516	CM.MKT.INDX.ZG	S&amp;P Global Equity Indices (annual % change)	1.0	-0.086	2001 - 2020	2004 - 2023
+19	0.3474	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	1.0	-0.8295	2003 - 2022	2004 - 2023
+20	0.3474	GC.TAX.OTHR.CN	Other taxes (current LCU)	1.0	-0.5064	2003 - 2022	2004 - 2023

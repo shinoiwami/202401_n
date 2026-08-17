@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.4639	1989 - 2008	2004 - 2023
+2	0.5	GC.NFN.TOTL.GD.ZS	Net investment in nonfinancial assets (% of GDP)	0.25	-0.5627	1995 - 2014	2004 - 2023
+3	0.3737	IT.NET.BBND.P2	Fixed broadband subscriptions (per 100 people)	1.0	0.7583	2003 - 2022	2004 - 2023
+4	0.37	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	0.95	-0.7664	2002 - 2021	2004 - 2023
+5	0.368	SH.XPD.CHEX.GD.ZS	Current health expenditure (% of GDP)	0.55	0.4972	2003 - 2022	2004 - 2023
+6	0.3655	SE.PRM.TENR	Adjusted net enrollment rate, primary (% of primary school age children)	0.6	0.3408	1996 - 2015	2004 - 2023
+7	0.3618	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.6	-0.5942	2001 - 2020	2004 - 2023
+8	0.3581	SG.GEN.PARL.ZS	Proportion of seats held by women in national parliaments (%)	0.85	0.4392	2004 - 2023	2004 - 2023
+9	0.3579	SH.HIV.ARTC.ZS	Antiretroviral therapy coverage (% of people living with HIV)	1.0	0.725	2002 - 2021	2004 - 2023
+10	0.3574	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	1.0	-0.0629	2002 - 2021	2004 - 2023
+11	0.355	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.35	0.2865	2003 - 2022	2004 - 2023
+12	0.3542	SH.H2O.SMDW.ZS	People using safely managed drinking water services (% of population)	0.65	0.728	2001 - 2020	2004 - 2023
+13	0.3474	IT.NET.BBND	Fixed broadband subscriptions	1.0	0.7858	2004 - 2023	2004 - 2023
+14	0.3474	SH.XPD.CHEX.PC.CD	Current health expenditure per capita (current US$)	1.0	0.8384	2003 - 2022	2004 - 2023
+15	0.3474	GC.NFN.TOTL.CN	Net investment in nonfinancial assets (current LCU)	1.0	0.412	1997 - 2016	2004 - 2023
+16	0.3474	SH.XPD.CHEX.PP.CD	Current health expenditure per capita, PPP (current international $)	1.0	0.8381	2003 - 2022	2004 - 2023
+17	0.3444	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	0.95	0.6804	2003 - 2022	2004 - 2023
+18	0.3416	SH.XPD.OOPC.PP.CD	Out-of-pocket expenditure per capita, PPP (current international $)	1.0	0.8546	2003 - 2022	2004 - 2023
+19	0.3409	SE.PRM.NENR	School enrollment, primary (% net)	0.6	0.4292	1997 - 2016	2004 - 2023
+20	0.3333	SH.STA.BASS.ZS	People using at least basic sanitation services (% of population)	0.2	-0.7149	2001 - 2020	2004 - 2023

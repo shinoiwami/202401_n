@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.4968	1989 - 2008	2004 - 2023
+2	0.4286	SH.XPD.OOPC.CH.ZS	Out-of-pocket expenditure (% of current health expenditure)	0.4	-0.5849	2001 - 2020	2004 - 2023
+3	0.4033	SH.XPD.GHED.GE.ZS	Domestic general government health expenditure (% of general government expenditure)	0.65	0.8837	2002 - 2021	2004 - 2023
+4	0.3886	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.4	-0.6515	2001 - 2020	2004 - 2023
+5	0.3875	SH.XPD.PVTD.CH.ZS	Domestic private health expenditure (% of current health expenditure)	0.45	-0.6296	2003 - 2022	2004 - 2023
+6	0.3862	SH.XPD.GHED.CH.ZS	Domestic general government health expenditure (% of current health expenditure)	0.45	0.6296	2003 - 2022	2004 - 2023
+7	0.3846	SH.H2O.SMDW.ZS	People using safely managed drinking water services (% of population)	0.7	0.7759	2002 - 2021	2004 - 2023
+8	0.3824	FD.RES.LIQU.AS.ZS	Bank liquid reserves to bank assets ratio (%)	0.9	-0.6461	2002 - 2021	2004 - 2023
+9	0.3729	SH.XPD.CHEX.GD.ZS	Current health expenditure (% of GDP)	0.4	0.546	2003 - 2022	2004 - 2023
+10	0.368	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.55	-0.6854	2003 - 2022	2004 - 2023
+11	0.3636	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	0.6	0.7326	2002 - 2021	2004 - 2023
+12	0.3633	SH.XPD.GHED.GD.ZS	Domestic general government health expenditure (% of GDP)	0.35	0.5901	2001 - 2020	2004 - 2023
+13	0.355	SH.H2O.BASW.ZS	People using at least basic drinking water services (% of population)	0.35	0.1498	2003 - 2022	2004 - 2023
+14	0.3539	SE.PRE.ENRR.MA	School enrollment, preprimary, male (% gross)	0.95	0.5537	2000 - 2019	2004 - 2023
+15	0.3537	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	1.0	0.6311	2002 - 2021	2004 - 2023
+16	0.3479	SH.XPD.PVTD.PC.CD	Domestic private health expenditure per capita (current US$)	1.0	0.7309	2002 - 2021	2004 - 2023
+17	0.3475	GC.TAX.OTHR.RV.ZS	Other taxes (% of revenue)	0.25	0.6027	1996 - 2015	2004 - 2023
+18	0.3474	SH.XPD.PVTD.PP.CD	Domestic private health expenditure per capita, PPP (current international $)	1.0	0.8418	2003 - 2022	2004 - 2023
+19	0.3474	SH.XPD.GHED.PC.CD	Domestic general government health expenditure per capita (current US$)	1.0	0.785	2003 - 2022	2004 - 2023
+20	0.3474	IS.SHP.GOOD.TU	Container port traffic (TEU: 20 foot equivalent units)	1.0	0.0921	2003 - 2022	2004 - 2023

@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.4673	1989 - 2008	2004 - 2023
+2	1.0	SI.DST.FRST.10	Income share held by lowest 10%	0.1	-0.778	2001 - 2020	2004 - 2023
+3	0.5	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.25	-0.834	2001 - 2020	2004 - 2023
+4	0.5	MS.MIL.TOTL.TF.ZS	Armed forces personnel (% of total labor force)	0.15	-0.7968	1992 - 2011	2004 - 2023
+5	0.4222	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.5	-0.6371	2001 - 2020	2004 - 2023
+6	0.4133	SH.XPD.CHEX.GD.ZS	Current health expenditure (% of GDP)	0.5	0.792	2001 - 2020	2004 - 2023
+7	0.3771	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.75	-0.6065	2001 - 2020	2004 - 2023
+8	0.3643	SH.H2O.BASW.ZS	People using at least basic drinking water services (% of population)	0.4	-0.0431	2003 - 2022	2004 - 2023
+9	0.361	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	0.55	-0.6863	2003 - 2022	2004 - 2023
+10	0.3488	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	0.9	0.73	2002 - 2021	2004 - 2023
+11	0.3474	ST.INT.DPRT	International tourism, number of departures	1.0	0.6689	2000 - 2019	2004 - 2023
+12	0.3474	IS.SHP.GOOD.TU	Container port traffic (TEU: 20 foot equivalent units)	1.0	0.3504	2003 - 2022	2004 - 2023
+13	0.3474	SH.XPD.OOPC.PP.CD	Out-of-pocket expenditure per capita, PPP (current international $)	1.0	0.8657	2003 - 2022	2004 - 2023
+14	0.3474	SH.XPD.CHEX.PC.CD	Current health expenditure per capita (current US$)	1.0	0.8589	2003 - 2022	2004 - 2023
+15	0.3474	SH.XPD.CHEX.PP.CD	Current health expenditure per capita, PPP (current international $)	1.0	0.8561	2003 - 2022	2004 - 2023
+16	0.3456	SE.XPD.TOTL.GD.ZS	Government expenditure on education, total (% of GDP)	0.5	0.7378	2001 - 2020	2004 - 2023
+17	0.3333	EN.URB.LCTY.UR.ZS	Population in the largest city (% of urban population)	0.2	-0.8497	1961 - 1980	2004 - 2023
+18	0.3333	SH.STA.SMSS.RU.ZS	People using safely managed sanitation services, rural (% of rural population)	0.2	0.835	2001 - 2020	2004 - 2023
+19	0.3333	SH.STA.SMSS.UR.ZS	People using safely managed sanitation services, urban (% of urban population)	0.2	0.835	2001 - 2020	2004 - 2023
+20	0.3333	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	0.2	0.8403	2001 - 2020	2004 - 2023

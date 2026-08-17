@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	0.5	SH.STA.STNT.ME.ZS	Prevalence of stunting, height for age (modeled estimate, % of children under 5)	0.15	0.4202	2001 - 2020	2004 - 2023
+2	0.4133	EG.CFT.ACCS.UR.ZS	Access to clean fuels and technologies for cooking, urban (% of urban population)	0.8	-0.844	2002 - 2021	2004 - 2023
+3	0.3943	NV.IND.MANF.ZS	Manufacturing, value added (% of GDP)	0.75	-0.7782	2001 - 2020	2004 - 2023
+4	0.3733	EG.CFT.ACCS.ZS	Access to clean fuels and technologies for cooking (% of population)	0.8	-0.7588	2002 - 2021	2004 - 2023
+5	0.3654	EG.CFT.ACCS.RU.ZS	Access to clean fuels and technologies for cooking, rural (% of rural population)	0.7	-0.0782	2002 - 2021	2004 - 2023
+6	0.3533	NY.GDP.DISC.CN	Discrepancy in expenditure estimate of GDP (current LCU)	0.5	-0.5418	2004 - 2023	2004 - 2023
+7	0.3518	SH.STA.OWGH.ME.ZS	Prevalence of overweight (modeled estimate, % of children under 5)	0.9	-0.6821	2001 - 2020	2004 - 2023
+8	0.35	SH.MED.PHYS.ZS	Physicians (per 1,000 people)	0.3	0.8294	2000 - 2019	2004 - 2023
+9	0.3479	SH.HIV.ARTC.ZS	Antiretroviral therapy coverage (% of people living with HIV)	1.0	0.8828	2003 - 2022	2004 - 2023
+10	0.3474	NV.IND.EMPL.KD	Industry (including construction), value added per worker (constant 2015 US$)	1.0	0.4167	2003 - 2022	2004 - 2023
+11	0.3474	NV.SRV.EMPL.KD	Services, value added per worker (constant 2015 US$)	1.0	0.4652	2003 - 2022	2004 - 2023
+12	0.3474	NV.IND.MANF.KN	Manufacturing, value added (constant LCU)	1.0	-0.579	2003 - 2022	2004 - 2023
+13	0.3474	NV.IND.MANF.CN	Manufacturing, value added (current LCU)	1.0	0.712	2003 - 2022	2004 - 2023
+14	0.3474	NV.IND.MANF.KD	Manufacturing, value added (constant 2015 US$)	1.0	-0.579	2003 - 2022	2004 - 2023
+15	0.3474	NV.IND.MANF.CD	Manufacturing, value added (current US$)	1.0	0.544	2003 - 2022	2004 - 2023
+16	0.3474	NV.AGR.EMPL.KD	Agriculture, forestry, and fishing, value added per worker (constant 2015 US$)	1.0	0.0038	2003 - 2022	2004 - 2023
+17	0.3442	NV.AGR.TOTL.KD.ZG	Agriculture, forestry, and fishing, value added (annual % growth)	1.0	-0.1869	2003 - 2022	2004 - 2023
+18	0.3411	NV.IND.TOTL.KD.ZG	Industry (including construction), value added (annual % growth)	0.95	-0.0236	2004 - 2023	2004 - 2023
+19	0.3347	NV.SRV.TOTL.KD.ZG	Services, value added (annual % growth)	1.0	0.2534	2003 - 2022	2004 - 2023
+20	0.3333	PA.NUS.FCRF	Official exchange rate (LCU per US$, period average)	0.2	-0.4284	2000 - 2019	2004 - 2023

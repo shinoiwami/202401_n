@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.4888	1989 - 2008	2004 - 2023
+2	1.0	GB.XPD.RSDV.GD.ZS	Research and development expenditure (% of GDP)	0.1	0.7895	1997 - 2016	2004 - 2023
+3	0.56	TX.VAL.MRCH.RS.ZS	Merchandise exports by the reporting economy, residual (% of total merchandise exports)	0.2	-0.7325	1994 - 2013	2004 - 2023
+4	0.5	AG.SRF.TOTL.K2	Surface area (sq. km)	0.15	0.5402	2001 - 2020	2004 - 2023
+5	0.47	SP.POP.GROW	Population growth (annual %)	0.2	0.2809	2004 - 2023	2004 - 2023
+6	0.4286	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.4	-0.859	2003 - 2022	2004 - 2023
+7	0.4175	NY.GDP.DISC.CN	Discrepancy in expenditure estimate of GDP (current LCU)	0.25	-0.7124	1991 - 2010	2004 - 2023
+8	0.4	SH.STA.OWGH.ME.ZS	Prevalence of overweight (modeled estimate, % of children under 5)	0.3	0.8152	2002 - 2021	2004 - 2023
+9	0.4	SH.H2O.SMDW.RU.ZS	People using safely managed drinking water services, rural (% of rural population)	0.55	0.7564	2001 - 2020	2004 - 2023
+10	0.3847	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	1.0	-0.4191	2003 - 2022	2004 - 2023
+11	0.3621	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	1.0	0.794	2003 - 2022	2004 - 2023
+12	0.3484	SP.POP.TECH.RD.P6	Technicians in R&amp;D (per million people)	1.0	0.7676	1998 - 2017	2004 - 2023
+13	0.3479	FD.RES.LIQU.AS.ZS	Bank liquid reserves to bank assets ratio (%)	1.0	0.4409	2003 - 2022	2004 - 2023
+14	0.346	SE.PRM.PRS5.FE.ZS	Persistence to grade 5, female (% of cohort)	0.3	0.6483	2002 - 2021	2004 - 2023
+15	0.346	SE.PRM.PRSL.FE.ZS	Persistence to last grade of primary, female (% of cohort)	0.3	0.6483	2002 - 2021	2004 - 2023
+16	0.3459	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	0.9	-0.7651	2002 - 2021	2004 - 2023
+17	0.345	SE.PRM.PRSL.MA.ZS	Persistence to last grade of primary, male (% of cohort)	0.55	0.6025	2000 - 2019	2004 - 2023
+18	0.345	SE.PRM.PRS5.MA.ZS	Persistence to grade 5, male (% of cohort)	0.55	0.6025	2000 - 2019	2004 - 2023
+19	0.3375	SE.PRM.PRSL.ZS	Persistence to last grade of primary, total (% of cohort)	0.45	0.6025	2000 - 2019	2004 - 2023
+20	0.3375	SE.PRM.PRS5.ZS	Persistence to grade 5, total (% of cohort)	0.45	0.6025	2000 - 2019	2004 - 2023

@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	SI.POV.GAPS	Poverty gap at $2.15 a day (2017 PPP) (%)	0.1	-0.3065	2003 - 2022	2004 - 2023
+2	0.4325	SH.STA.OWGH.ME.ZS	Prevalence of overweight (modeled estimate, % of children under 5)	0.25	0.008	2003 - 2022	2004 - 2023
+3	0.425	SH.STA.STNT.ME.ZS	Prevalence of stunting, height for age (modeled estimate, % of children under 5)	0.25	0.69	2001 - 2020	2004 - 2023
+4	0.39	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.85	-0.1407	2001 - 2020	2004 - 2023
+5	0.3853	SG.GEN.PARL.ZS	Proportion of seats held by women in national parliaments (%)	0.9	0.967	2003 - 2022	2004 - 2023
+6	0.3644	FD.RES.LIQU.AS.ZS	Bank liquid reserves to bank assets ratio (%)	0.85	0.8399	2003 - 2022	2004 - 2023
+7	0.3636	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	0.6	-0.9269	2001 - 2020	2004 - 2023
+8	0.36	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.8	-0.7715	2001 - 2020	2004 - 2023
+9	0.3595	FS.AST.DOMO.GD.ZS	Claims on other sectors of the domestic economy (% of GDP)	1.0	0.3361	2004 - 2023	2004 - 2023
+10	0.3555	SH.XPD.CHEX.GD.ZS	Current health expenditure (% of GDP)	0.6	0.9079	2002 - 2021	2004 - 2023
+11	0.3474	SH.XPD.OOPC.PP.CD	Out-of-pocket expenditure per capita, PPP (current international $)	1.0	0.9791	2003 - 2022	2004 - 2023
+12	0.3474	IS.SHP.GOOD.TU	Container port traffic (TEU: 20 foot equivalent units)	1.0	0.9681	2003 - 2022	2004 - 2023
+13	0.3474	SH.XPD.CHEX.PC.CD	Current health expenditure per capita (current US$)	1.0	0.9898	2003 - 2022	2004 - 2023
+14	0.3474	SH.XPD.CHEX.PP.CD	Current health expenditure per capita, PPP (current international $)	1.0	0.9898	2003 - 2022	2004 - 2023
+15	0.3333	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	0.2	0.7273	2001 - 2020	2004 - 2023
+16	0.3333	SH.STA.BASS.RU.ZS	People using at least basic sanitation services, rural (% of rural population)	0.35	-0.9609	2001 - 2020	2004 - 2023
+17	0.3333	SH.STA.SMSS.UR.ZS	People using safely managed sanitation services, urban (% of urban population)	0.2	0.8645	2001 - 2020	2004 - 2023
+18	0.3333	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.35	-0.9559	2001 - 2020	2004 - 2023
+19	0.3333	SH.H2O.SMDW.UR.ZS	People using safely managed drinking water services, urban (% of urban population)	0.2	0.9695	2001 - 2020	2004 - 2023
+20	0.3175	SL.EMP.MPYR.ZS	Employers, total (% of total employment) (modeled ILO estimate)	0.25	-0.8719	2003 - 2022	2004 - 2023

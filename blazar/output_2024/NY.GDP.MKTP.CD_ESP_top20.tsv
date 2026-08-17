@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	SH.TBS.DTEC.ZS	Tuberculosis case detection rate (%, all forms)	0.1	-0.3592	2003 - 2022	2004 - 2023
+2	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.5027	1989 - 2008	2004 - 2023
+3	0.5	SE.PRM.ENRL.FE.ZS	Primary education, pupils (% female)	0.15	-0.3113	1972 - 1991	2004 - 2023
+4	0.36	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	1.0	-0.2191	2003 - 2022	2004 - 2023
+5	0.3579	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.75	0.1238	2001 - 2020	2004 - 2023
+6	0.3553	FM.AST.PRVT.GD.ZS	Monetary Sector credit to private sector (% GDP)	1.0	0.184	2004 - 2023	2004 - 2023
+7	0.3553	FS.AST.PRVT.GD.ZS	Domestic credit to private sector (% of GDP)	1.0	0.184	2004 - 2023	2004 - 2023
+8	0.3474	IS.SHP.GOOD.TU	Container port traffic (TEU: 20 foot equivalent units)	1.0	0.4356	2003 - 2022	2004 - 2023
+9	0.3474	FM.AST.NFRG.CN	Net foreign assets (current LCU)	1.0	0.0094	2004 - 2023	2004 - 2023
+10	0.3474	FM.AST.DOMS.CN	Net domestic credit (current LCU)	1.0	0.7044	2004 - 2023	2004 - 2023
+11	0.3437	FD.AST.PRVT.GD.ZS	Domestic credit to private sector by banks (% of GDP)	1.0	0.1742	2004 - 2023	2004 - 2023
+12	0.3416	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	1.0	0.2832	2002 - 2021	2004 - 2023
+13	0.3405	FS.AST.CGOV.GD.ZS	Claims on central government, etc. (% GDP)	1.0	0.0881	2003 - 2022	2004 - 2023
+14	0.3333	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.5	-0.1041	2001 - 2020	2004 - 2023
+15	0.3333	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.2	-0.167	2001 - 2020	2004 - 2023
+16	0.3333	BX.TRF.PWKR.DT.GD.ZS	Personal remittances, received (% of GDP)	0.2	-0.2146	1976 - 1995	2004 - 2023
+17	0.3333	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	0.2	-0.2617	2001 - 2020	2004 - 2023
+18	0.3333	SH.H2O.BASW.UR.ZS	People using at least basic drinking water services, urban (% of urban population)	0.2	-0.1402	2001 - 2020	2004 - 2023
+19	0.3333	SH.H2O.BASW.ZS	People using at least basic drinking water services (% of population)	0.2	-0.1433	2001 - 2020	2004 - 2023
+20	0.3333	SH.STA.BASS.RU.ZS	People using at least basic sanitation services, rural (% of rural population)	0.2	0.216	2001 - 2020	2004 - 2023

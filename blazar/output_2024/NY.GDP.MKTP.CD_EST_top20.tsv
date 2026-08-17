@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.4447	1989 - 2008	2004 - 2023
+2	0.5	SH.DYN.AIDS.FE.ZS	Women&#x27;s share of population ages 15+ living with HIV (%)	0.25	0.9187	2003 - 2022	2004 - 2023
+3	0.4667	SH.H2O.BASW.RU.ZS	People using at least basic drinking water services, rural (% of rural population)	0.8	0.8467	2002 - 2021	2004 - 2023
+4	0.4286	SH.H2O.BASW.ZS	People using at least basic drinking water services (% of population)	0.4	0.8433	2003 - 2022	2004 - 2023
+5	0.374	SH.XPD.CHEX.GD.ZS	Current health expenditure (% of GDP)	0.55	0.8425	2002 - 2021	2004 - 2023
+6	0.365	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.85	-0.841	2003 - 2022	2004 - 2023
+7	0.3574	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	1.0	-0.9171	2002 - 2021	2004 - 2023
+8	0.3571	SH.H2O.SMDW.ZS	People using safely managed drinking water services (% of population)	0.75	0.8491	2002 - 2021	2004 - 2023
+9	0.3542	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	1.0	-0.3111	2002 - 2021	2004 - 2023
+10	0.3526	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	1.0	-0.1146	2002 - 2021	2004 - 2023
+11	0.3521	IT.NET.BBND.P2	Fixed broadband subscriptions (per 100 people)	1.0	0.9167	2004 - 2023	2004 - 2023
+12	0.3474	IT.NET.BBND	Fixed broadband subscriptions	1.0	0.9286	2004 - 2023	2004 - 2023
+13	0.3474	NY.GNP.PCAP.PP.KD	GNI per capita, PPP (constant 2021 international $)	1.0	0.9544	2003 - 2022	2004 - 2023
+14	0.3474	NY.GSR.NFCY.CN	Net primary income (Net income from abroad) (current LCU)	1.0	-0.0682	2003 - 2022	2004 - 2023
+15	0.3474	NY.GNP.MKTP.KD	GNI (constant 2015 US$)	1.0	0.9581	2003 - 2022	2004 - 2023
+16	0.3474	NY.GNP.PCAP.KD	GNI per capita (constant 2015 US$)	1.0	0.9544	2003 - 2022	2004 - 2023
+17	0.3474	NY.GSR.NFCY.CD	Net primary income (Net income from abroad) (current US$)	1.0	0.0803	2003 - 2022	2004 - 2023
+18	0.3474	NY.TRF.NCTR.CD	Net secondary income (Net current transfers from abroad) (current US$)	1.0	-0.4419	2003 - 2022	2004 - 2023
+19	0.3474	NY.GSR.NFCY.KN	Net primary income (Net income from abroad) (constant LCU)	1.0	0.385	2003 - 2022	2004 - 2023
+20	0.3474	SH.XPD.OOPC.PP.CD	Out-of-pocket expenditure per capita, PPP (current international $)	1.0	0.9471	2003 - 2022	2004 - 2023

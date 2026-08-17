@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	TM.VAL.MRCH.R5.ZS	Merchandise imports from low- and middle-income economies in South Asia (% of total merchandise imports)	0.1	0.8135	2001 - 2020	2004 - 2023
+2	0.5267	EG.ELC.RNWX.KH	Electricity production from renewable sources, excluding hydroelectric (kWh)	0.2	0.6568	1996 - 2015	2004 - 2023
+3	0.5	TM.VAL.MRCH.AL.ZS	Merchandise imports from economies in the Arab World (% of total merchandise imports)	0.15	0.5878	2000 - 2019	2004 - 2023
+4	0.4211	SH.H2O.BASW.ZS	People using at least basic drinking water services (% of population)	1.0	0.9612	2002 - 2021	2004 - 2023
+5	0.3889	SH.STA.STNT.ME.ZS	Prevalence of stunting, height for age (modeled estimate, % of children under 5)	0.95	-0.947	2002 - 2021	2004 - 2023
+6	0.375	SH.STA.OWGH.ME.ZS	Prevalence of overweight (modeled estimate, % of children under 5)	0.85	-0.9211	2002 - 2021	2004 - 2023
+7	0.3623	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.7	-0.8865	2001 - 2020	2004 - 2023
+8	0.3582	IT.NET.BBND.P2	Fixed broadband subscriptions (per 100 people)	0.9	0.9585	2004 - 2023	2004 - 2023
+9	0.3563	SH.STA.BASS.ZS	People using at least basic sanitation services (% of population)	1.0	0.9616	2002 - 2021	2004 - 2023
+10	0.3558	FD.RES.LIQU.AS.ZS	Bank liquid reserves to bank assets ratio (%)	1.0	0.6414	2004 - 2023	2004 - 2023
+11	0.3542	SH.HIV.ARTC.ZS	Antiretroviral therapy coverage (% of people living with HIV)	1.0	0.9333	2002 - 2021	2004 - 2023
+12	0.3537	SH.STA.SMSS.UR.ZS	People using safely managed sanitation services, urban (% of urban population)	1.0	0.9616	2002 - 2021	2004 - 2023
+13	0.3516	EG.CFT.ACCS.RU.ZS	Access to clean fuels and technologies for cooking, rural (% of rural population)	1.0	0.8765	2002 - 2021	2004 - 2023
+14	0.3511	SH.HIV.PMTC.ZS	Antiretroviral therapy coverage for PMTCT (% of pregnant women living with HIV)	1.0	0.854	2003 - 2022	2004 - 2023
+15	0.3505	EG.USE.COMM.FO.ZS	Fossil fuel energy consumption (% of total)	1.0	-0.672	1993 - 2012	2004 - 2023
+16	0.3494	EG.CFT.ACCS.ZS	Access to clean fuels and technologies for cooking (% of population)	0.9	0.8815	2001 - 2020	2004 - 2023
+17	0.3474	IT.NET.BBND	Fixed broadband subscriptions	1.0	0.9563	2004 - 2023	2004 - 2023
+18	0.3474	DT.NFL.MOTH.CD	Net financial flows, others (NFL, current US$)	1.0	0.741	2003 - 2022	2004 - 2023
+19	0.3474	DT.NFL.IFAD.CD	Net official flows from UN agencies, IFAD (current US$)	1.0	-0.1537	2003 - 2022	2004 - 2023
+20	0.3474	DC.DAC.NORL.CD	Net bilateral aid flows from DAC donors, Norway (current US$)	1.0	0.4364	2003 - 2022	2004 - 2023

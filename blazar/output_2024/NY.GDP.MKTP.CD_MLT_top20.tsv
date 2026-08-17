@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	SL.EMP.MPYR.FE.ZS	Employers, female (% of female employment) (modeled ILO estimate)	0.1	0.8558	2003 - 2022	2004 - 2023
+2	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.3424	1989 - 2008	2004 - 2023
+3	0.5	EG.USE.COMM.CL.ZS	Alternative and nuclear energy (% of total energy use)	0.15	0.8559	1994 - 2013	2004 - 2023
+4	0.5	TX.VAL.MMTL.ZS.UN	Ores and metals exports (% of merchandise exports)	0.15	0.4585	2003 - 2022	2004 - 2023
+5	0.5	GC.XPN.OTHR.ZS	Other expense (% of expense)	0.15	0.1237	1996 - 2015	2004 - 2023
+6	0.43	EG.ELC.RNWX.ZS	Electricity production from renewable sources, excluding hydroelectric (% of total)	0.25	0.7232	1996 - 2015	2004 - 2023
+7	0.3875	EG.ELC.RNEW.ZS	Renewable electricity output (% of total electricity output)	0.25	0.7232	1996 - 2015	2004 - 2023
+8	0.3817	EG.ELC.RNWX.KH	Electricity production from renewable sources, excluding hydroelectric (kWh)	0.35	0.782	1996 - 2015	2004 - 2023
+9	0.3658	NE.IMP.GNFS.KD.ZG	Imports of goods and services (annual % growth)	1.0	-0.0059	2004 - 2023	2004 - 2023
+10	0.3621	CM.MKT.TRNR	Stocks traded, turnover ratio of domestic shares (%)	0.75	-0.5094	2003 - 2022	2004 - 2023
+11	0.3611	NE.CON.GOVT.KD.ZG	General government final consumption expenditure (annual % growth)	1.0	0.3948	2004 - 2023	2004 - 2023
+12	0.3576	NE.CON.TOTL.KD.ZG	Final consumption expenditure (annual % growth)	0.9	0.3148	2002 - 2021	2004 - 2023
+13	0.3553	CM.MKT.LCAP.GD.ZS	Market capitalization of listed domestic companies (% of GDP)	1.0	-0.477	2002 - 2021	2004 - 2023
+14	0.3553	NY.GNP.MKTP.KD.ZG	GNI growth (annual %)	1.0	0.2752	2003 - 2022	2004 - 2023
+15	0.3537	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	1.0	-0.861	2001 - 2020	2004 - 2023
+16	0.3533	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	0.8	-0.9068	2002 - 2021	2004 - 2023
+17	0.3513	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	0.85	0.636	2003 - 2022	2004 - 2023
+18	0.3511	NE.EXP.GNFS.KD.ZG	Exports of goods and services (annual % growth)	1.0	0.014	2004 - 2023	2004 - 2023
+19	0.3489	NE.GDI.FTOT.KD.ZG	Gross fixed capital formation (annual % growth)	1.0	-0.0285	2004 - 2023	2004 - 2023
+20	0.3489	NV.AGR.TOTL.KD.ZG	Agriculture, forestry, and fishing, value added (annual % growth)	1.0	0.0551	2004 - 2023	2004 - 2023

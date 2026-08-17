@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	SH.TBS.DTEC.ZS	Tuberculosis case detection rate (%, all forms)	0.1	-0.3529	2003 - 2022	2004 - 2023
+2	1.0	SL.EMP.MPYR.ZS	Employers, total (% of total employment) (modeled ILO estimate)	0.1	0.3209	2003 - 2022	2004 - 2023
+3	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.5332	1989 - 2008	2004 - 2023
+4	1.0	SH.DYN.1014	Probability of dying among adolescents ages 10-14 years (per 1,000)	0.1	-0.4913	1991 - 2010	2004 - 2023
+5	1.0	SI.DST.FRST.10	Income share held by lowest 10%	0.1	-0.4994	2002 - 2021	2004 - 2023
+6	0.5	SH.HIV.INCD.14	Children (ages 0-14) newly infected with HIV	0.15	-0.6992	1991 - 2010	2004 - 2023
+7	0.445	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.35	-0.6262	2003 - 2022	2004 - 2023
+8	0.4286	SH.H2O.SMDW.UR.ZS	People using safely managed drinking water services, urban (% of urban population)	0.4	0.5789	2003 - 2022	2004 - 2023
+9	0.428	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.55	-0.6366	2001 - 2020	2004 - 2023
+10	0.41	MS.MIL.TOTL.TF.ZS	Armed forces personnel (% of total labor force)	0.2	-0.5268	2001 - 2020	2004 - 2023
+11	0.381	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.55	-0.5628	2001 - 2020	2004 - 2023
+12	0.3613	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	0.8	-0.4875	2003 - 2022	2004 - 2023
+13	0.3571	SH.MED.NUMW.P3	Nurses and midwives (per 1,000 people)	0.75	0.5679	1999 - 2018	2004 - 2023
+14	0.3486	SH.H2O.BASW.ZS	People using at least basic drinking water services (% of population)	0.4	-0.0719	2003 - 2022	2004 - 2023
+15	0.3474	IS.SHP.GOOD.TU	Container port traffic (TEU: 20 foot equivalent units)	1.0	0.6201	2003 - 2022	2004 - 2023
+16	0.3474	FM.AST.NFRG.CN	Net foreign assets (current LCU)	1.0	-0.0424	2004 - 2023	2004 - 2023
+17	0.3474	FM.AST.DOMS.CN	Net domestic credit (current LCU)	1.0	0.6614	2004 - 2023	2004 - 2023
+18	0.3471	FS.AST.CGOV.GD.ZS	Claims on central government, etc. (% GDP)	0.9	0.4597	2003 - 2022	2004 - 2023
+19	0.3447	FD.AST.PRVT.GD.ZS	Domestic credit to private sector by banks (% of GDP)	1.0	0.6505	2004 - 2023	2004 - 2023
+20	0.3395	FM.AST.PRVT.GD.ZS	Monetary Sector credit to private sector (% GDP)	1.0	0.7191	2003 - 2022	2004 - 2023

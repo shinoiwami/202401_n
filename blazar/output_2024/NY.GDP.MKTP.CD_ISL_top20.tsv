@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	EN.GHG.FGAS.IP.MT.CE.AR5	F-gases emissions from Industrial Processes (Mt CO2e)	0.1	-0.0632	1991 - 2010	2004 - 2023
+2	0.5	SL.FAM.WORK.MA.ZS	Contributing family workers, male (% of male employment) (modeled ILO estimate)	0.15	-0.1639	1992 - 2011	2004 - 2023
+3	0.5	SL.FAM.WORK.ZS	Contributing family workers, total (% of total employment) (modeled ILO estimate)	0.15	-0.2602	1992 - 2011	2004 - 2023
+4	0.4226	SH.H2O.SMDW.ZS	People using safely managed drinking water services (% of population)	1.0	0.7681	2002 - 2021	2004 - 2023
+5	0.3735	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.9	-0.3028	2003 - 2022	2004 - 2023
+6	0.3656	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	0.85	-0.2772	2001 - 2020	2004 - 2023
+7	0.3594	SL.UEM.ADVN.ZS	Unemployment with advanced education (% of total labor force with advanced education)	0.95	-0.1841	2004 - 2023	2004 - 2023
+8	0.3574	FD.RES.LIQU.AS.ZS	Bank liquid reserves to bank assets ratio (%)	1.0	0.4644	2004 - 2023	2004 - 2023
+9	0.3567	SE.PRE.ENRR.FE	School enrollment, preprimary, female (% gross)	0.95	0.2157	2001 - 2020	2004 - 2023
+10	0.3553	SE.PRE.ENRR.MA	School enrollment, preprimary, male (% gross)	0.8	0.0765	2000 - 2019	2004 - 2023
+11	0.355	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	0.95	0.039	2003 - 2022	2004 - 2023
+12	0.3519	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.85	0.4375	2002 - 2021	2004 - 2023
+13	0.35	SH.H2O.BASW.ZS	People using at least basic drinking water services (% of population)	0.35	0.4057	2003 - 2022	2004 - 2023
+14	0.3474	SH.XPD.OOPC.PP.CD	Out-of-pocket expenditure per capita, PPP (current international $)	1.0	0.8673	2003 - 2022	2004 - 2023
+15	0.3474	SH.XPD.CHEX.PC.CD	Current health expenditure per capita (current US$)	1.0	0.8356	2003 - 2022	2004 - 2023
+16	0.3474	SH.XPD.CHEX.PP.CD	Current health expenditure per capita, PPP (current international $)	1.0	0.8827	2003 - 2022	2004 - 2023
+17	0.3474	SE.PRE.ENRR	School enrollment, preprimary (% gross)	1.0	0.1194	1999 - 2018	2004 - 2023
+18	0.346	SE.ENR.PRSC.FM.ZS	School enrollment, primary and secondary (gross), gender parity index (GPI)	0.3	-0.7072	2001 - 2020	2004 - 2023
+19	0.346	SH.XPD.CHEX.GD.ZS	Current health expenditure (% of GDP)	0.3	0.1249	2003 - 2022	2004 - 2023
+20	0.342	SE.ENR.SECO.FM.ZS	School enrollment, secondary (gross), gender parity index (GPI)	0.3	-0.6823	2001 - 2020	2004 - 2023

@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.4904	1989 - 2008	2004 - 2023
+2	1.0	SH.DYN.1519	Probability of dying among adolescents ages 15-19 years (per 1,000)	0.1	-0.7957	1991 - 2010	2004 - 2023
+3	0.5	TM.VAL.MRCH.R5.ZS	Merchandise imports from low- and middle-income economies in South Asia (% of total merchandise imports)	0.15	0.7029	2000 - 2019	2004 - 2023
+4	0.5	SH.STA.BASS.RU.ZS	People using at least basic sanitation services, rural (% of rural population)	0.15	0.7945	2001 - 2020	2004 - 2023
+5	0.425	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.75	-0.6547	2001 - 2020	2004 - 2023
+6	0.3892	FD.RES.LIQU.AS.ZS	Bank liquid reserves to bank assets ratio (%)	0.7	0.5097	2004 - 2023	2004 - 2023
+7	0.3757	SH.XPD.CHEX.GD.ZS	Current health expenditure (% of GDP)	0.4	0.5951	2001 - 2020	2004 - 2023
+8	0.3519	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.85	-0.7162	2003 - 2022	2004 - 2023
+9	0.3474	IS.SHP.GOOD.TU	Container port traffic (TEU: 20 foot equivalent units)	1.0	0.8562	2003 - 2022	2004 - 2023
+10	0.3474	SH.XPD.OOPC.PP.CD	Out-of-pocket expenditure per capita, PPP (current international $)	1.0	0.786	2003 - 2022	2004 - 2023
+11	0.3474	SH.XPD.CHEX.PC.CD	Current health expenditure per capita (current US$)	1.0	0.7815	2003 - 2022	2004 - 2023
+12	0.3474	SH.XPD.CHEX.PP.CD	Current health expenditure per capita, PPP (current international $)	1.0	0.7804	2003 - 2022	2004 - 2023
+13	0.34	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	0.95	0.6818	2003 - 2022	2004 - 2023
+14	0.3389	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	0.95	0.2167	2001 - 2020	2004 - 2023
+15	0.3333	SH.STA.BASS.ZS	People using at least basic sanitation services (% of population)	0.2	-0.7899	2001 - 2020	2004 - 2023
+16	0.3333	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.35	-0.7978	2001 - 2020	2004 - 2023
+17	0.3333	SH.STA.BASS.UR.ZS	People using at least basic sanitation services, urban (% of urban population)	0.2	-0.7945	2001 - 2020	2004 - 2023
+18	0.3333	SH.STA.SMSS.UR.ZS	People using safely managed sanitation services, urban (% of urban population)	0.2	0.7945	2001 - 2020	2004 - 2023
+19	0.3333	VC.IHR.PSRC.MA.P5	Intentional homicides, male (per 100,000 male)	0.2	0.359	2000 - 2019	2004 - 2023
+20	0.3333	SH.H2O.BASW.RU.ZS	People using at least basic drinking water services, rural (% of rural population)	0.2	0.7945	2001 - 2020	2004 - 2023

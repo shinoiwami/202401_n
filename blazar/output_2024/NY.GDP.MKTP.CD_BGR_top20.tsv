@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.4298	1989 - 2008	2004 - 2023
+2	0.4427	SH.H2O.SMDW.ZS	People using safely managed drinking water services (% of population)	0.8	0.7054	2002 - 2021	2004 - 2023
+3	0.4158	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.65	0.8636	2001 - 2020	2004 - 2023
+4	0.4078	SH.TBS.DTEC.ZS	Tuberculosis case detection rate (%, all forms)	0.5	-0.5347	2003 - 2022	2004 - 2023
+5	0.3872	SE.TER.TCHR.FE.ZS	Tertiary education, academic staff (% female)	0.95	0.9185	2002 - 2021	2004 - 2023
+6	0.3758	SH.STA.SMSS.ZS	People using safely managed sanitation services (% of population)	1.0	0.9106	2002 - 2021	2004 - 2023
+7	0.3713	SH.STA.OWGH.ME.ZS	Prevalence of overweight (modeled estimate, % of children under 5)	0.85	-0.8476	2002 - 2021	2004 - 2023
+8	0.37	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.6	-0.8333	2001 - 2020	2004 - 2023
+9	0.3663	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.45	-0.3557	2001 - 2020	2004 - 2023
+10	0.3617	EG.ELC.RNWX.ZS	Electricity production from renewable sources, excluding hydroelectric (% of total)	0.35	0.8576	1996 - 2015	2004 - 2023
+11	0.3537	SH.STA.SMSS.UR.ZS	People using safely managed sanitation services, urban (% of urban population)	1.0	0.9217	2002 - 2021	2004 - 2023
+12	0.3532	SH.HIV.ARTC.ZS	Antiretroviral therapy coverage (% of people living with HIV)	1.0	0.9078	2003 - 2022	2004 - 2023
+13	0.3474	BX.TRF.PWKR.CD	Personal transfers, receipts (BoP, current US$)	1.0	0.8887	2004 - 2023	2004 - 2023
+14	0.3437	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	1.0	-0.8735	2003 - 2022	2004 - 2023
+15	0.3421	SL.EMP.SMGT.FE.ZS	Female share of employment in senior and middle management (%)	1.0	0.0347	2002 - 2021	2004 - 2023
+16	0.3405	FD.RES.LIQU.AS.ZS	Bank liquid reserves to bank assets ratio (%)	1.0	0.6702	2004 - 2023	2004 - 2023
+17	0.3356	SH.STA.SMSS.RU.ZS	People using safely managed sanitation services, rural (% of rural population)	0.95	0.809	2001 - 2020	2004 - 2023
+18	0.3333	SH.STA.BASS.ZS	People using at least basic sanitation services (% of population)	0.2	0.9152	2001 - 2020	2004 - 2023
+19	0.3333	SH.STA.STNT.ME.ZS	Prevalence of stunting, height for age (modeled estimate, % of children under 5)	0.5	-0.8234	2001 - 2020	2004 - 2023
+20	0.3333	SH.H2O.BASW.RU.ZS	People using at least basic drinking water services, rural (% of rural population)	0.35	-0.9149	2001 - 2020	2004 - 2023

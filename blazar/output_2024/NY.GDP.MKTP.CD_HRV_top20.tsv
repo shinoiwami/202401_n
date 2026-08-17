@@ -1,0 +1,21 @@
+Rank	Importance	Indicator ID	Indicator Name	R2	COR	X Period	Y Period
+1	1.0	SH.TBS.DTEC.ZS	Tuberculosis case detection rate (%, all forms)	0.1	0.583	2003 - 2022	2004 - 2023
+2	1.0	TM.TAX.MANF.SR.ZS	Share of tariff lines with specific rates, manufactured products (%)	0.1	-0.4643	1989 - 2008	2004 - 2023
+3	0.42	TM.VAL.ICTG.ZS.UN	ICT goods imports (% total goods imports)	0.55	-0.601	2003 - 2022	2004 - 2023
+4	0.4	EG.EGY.PRIM.PP.KD	Energy intensity level of primary energy (MJ/$2017 PPP GDP)	0.3	-0.6788	2002 - 2021	2004 - 2023
+5	0.3692	FR.INR.DPST	Deposit interest rate (%)	0.7	-0.4519	1993 - 2012	2004 - 2023
+6	0.3663	TX.VAL.ICTG.ZS.UN	ICT goods exports (% of total goods exports)	0.45	-0.3212	2001 - 2020	2004 - 2023
+7	0.3595	SH.TBS.INCD	Incidence of tuberculosis (per 100,000 people)	1.0	-0.648	2002 - 2021	2004 - 2023
+8	0.3533	EG.ELC.RNWX.ZS	Electricity production from renewable sources, excluding hydroelectric (% of total)	0.35	0.7285	1996 - 2015	2004 - 2023
+9	0.3484	SH.HIV.ARTC.ZS	Antiretroviral therapy coverage (% of people living with HIV)	1.0	0.5547	2003 - 2022	2004 - 2023
+10	0.3474	IS.SHP.GOOD.TU	Container port traffic (TEU: 20 foot equivalent units)	1.0	0.7694	2003 - 2022	2004 - 2023
+11	0.346	GB.XPD.RSDV.GD.ZS	Research and development expenditure (% of GDP)	0.3	0.4231	2002 - 2021	2004 - 2023
+12	0.31	SL.EMP.TOTL.SP.FE.NE.ZS	Employment to population ratio, 15+, female (%) (national estimate)	1.0	0.8106	2004 - 2023	2004 - 2023
+13	0.2974	SL.TLF.CACT.MA.NE.ZS	Labor force participation rate, male (% of male population ages 15+) (national estimate)	1.0	0.0128	2003 - 2022	2004 - 2023
+14	0.2861	GC.AST.TOTL.GD.ZS	Net acquisition of financial assets (% of GDP)	0.95	0.4477	2001 - 2020	2004 - 2023
+15	0.2779	SL.TLF.CACT.FE.NE.ZS	Labor force participation rate, female (% of female population ages 15+) (national estimate)	1.0	0.6825	2004 - 2023	2004 - 2023
+16	0.2747	SL.EMP.TOTL.SP.NE.ZS	Employment to population ratio, 15+, total (%) (national estimate)	1.0	0.7057	2004 - 2023	2004 - 2023
+17	0.2716	SL.EMP.TOTL.SP.MA.NE.ZS	Employment to population ratio, 15+, male (%) (national estimate)	1.0	0.4963	2003 - 2022	2004 - 2023
+18	0.2689	SL.TLF.CACT.FM.NE.ZS	Ratio of female to male labor force participation rate (%) (national estimate)	1.0	0.4715	2003 - 2022	2004 - 2023
+19	0.2676	SL.TLF.CACT.NE.ZS	Labor force participation rate, total (% of total population ages 15+) (national estimate)	0.9	0.3412	2003 - 2022	2004 - 2023
+20	0.2642	SL.UEM.TOTL.MA.NE.ZS	Unemployment, male (% of male labor force) (national estimate)	1.0	-0.6158	2001 - 2020	2004 - 2023
